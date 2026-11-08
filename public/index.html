@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moving Quote</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1c1e21; --muted:#6b7280; --line:#e5e7eb; --accent:#2563eb; --ok:#059669; --ok-bg:#d1fae5; --err:#b91c1c; --err-bg:#fee2e2; --warn-bg:#fef3c7; --warn:#92400e; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  header { background:#fff; border-bottom:1px solid var(--line); }
+  header .in { max-width:1120px; margin:0 auto; padding:14px 16px; display:flex; align-items:center; gap:16px; }
+  header h1 { font-size:20px; margin:0; } header h1 a { color:inherit; text-decoration:none; }
+  header .sp { flex:1; }
+  main { max-width:1120px; margin:0 auto; padding:20px 16px 48px; }
+  h2 { font-size:13px; margin:0 0 12px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; margin-bottom:16px; }
+  .grid { display:grid; grid-template-columns: minmax(0,1fr) 340px; gap:16px; align-items:start; }
+  @media (max-width:900px) { .grid { grid-template-columns:1fr; } }
+  .row { display:flex; gap:10px; flex-wrap:wrap; align-items:end; }
+  label { display:grid; gap:4px; font-size:13px; color:var(--muted); flex:1; min-width:110px; }
+  input, select { font:inherit; padding:8px 10px; border:1px solid var(--line); border-radius:6px; width:100%; background:#fff; color:var(--ink); }
+  input:disabled, select:disabled { background:var(--bg); color:var(--muted); }
+  button { font:inherit; padding:8px 14px; border-radius:6px; border:1px solid var(--accent); background:var(--accent); color:#fff; cursor:pointer; white-space:nowrap; }
+  button.ghost { background:transparent; color:var(--accent); }
+  button.small { padding:3px 9px; font-size:13px; }
+  button.danger { background:transparent; color:var(--err); border-color:var(--err); }
+  button:disabled { opacity:.45; cursor:not-allowed; }
+  table { width:100%; border-collapse:collapse; } th, td { text-align:left; padding:7px 6px; border-bottom:1px solid var(--line); vertical-align:middle; }
+  th { font-size:12px; color:var(--muted); font-weight:600; } td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
+  td input { width:90px; padding:4px 6px; }
+  .muted { color:var(--muted); font-size:13px; } .mono { font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; }
+  .badge { display:inline-block; padding:2px 10px; border-radius:999px; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+  .badge.draft { background:#e0e7ff; color:#3730a3; } .badge.confirmed { background:var(--ok-bg); color:var(--ok); } .badge.cancelled { background:var(--err-bg); color:var(--err); }
+  .msg { padding:8px 12px; border-radius:6px; font-size:14px; margin-bottom:12px; } .msg.err { background:var(--err-bg); color:var(--err); } .msg.ok { background:var(--ok-bg); color:var(--ok); }
+  .warn { background:var(--warn-bg); color:var(--warn); padding:8px 12px; border-radius:6px; font-size:13px; margin-top:10px; }
+  .cal { display:grid; grid-template-columns:repeat(7, 1fr); gap:6px; }
+  .cal button { background:#fff; color:var(--ink); border:1px solid var(--line); padding:6px 4px; display:grid; gap:1px; text-align:center; }
+  .cal button .d { font-weight:600; } .cal button .w, .cal button .f { font-size:11px; color:var(--muted); }
+  .cal button.sel { border-color:var(--accent); background:#eff6ff; } .cal button.full .f { color:var(--err); }
+  .cal button:disabled { opacity:.4; }
+  .est div { display:flex; justify-content:space-between; padding:4px 0; font-variant-numeric:tabular-nums; }
+  .est .total { border-top:1px solid var(--line); margin-top:6px; padding-top:10px; font-size:20px; font-weight:600; }
+  .events li { font-size:12px; padding:3px 0; border-bottom:1px dashed var(--line); } .events { list-style:none; margin:0; padding:0; max-height:320px; overflow:auto; }
+  .head { display:flex; align-items:center; gap:12px; margin-bottom:14px; } .head h2 { margin:0; }
+  a.open { color:var(--accent); text-decoration:none; font-weight:600; }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<header><div class="in"><h1><a href="#/">Moving quote</a></h1><span class="sp"></span><button id="start">Start a quote</button></div></header>
+<main>
+  <div class="msg" id="msg" hidden></div>
+
+  <!-- home: the office list -->
+  <section id="home">
+    <div class="card">
+      <h2>Quotes</h2>
+      <table><thead><tr><th>Quote</th><th>Status</th><th>Started</th><th>Move date</th><th class="num">Items</th><th class="num">Weight</th><th class="num">Price</th></tr></thead><tbody id="quotes"></tbody></table>
+      <p class="muted" id="no-quotes" hidden>No quotes yet. Start one.</p>
+    </div>
+  </section>
+
+  <!-- the calculator -->
+  <section id="calc" hidden>
+    <div class="head"><h2 id="q-title">Quote</h2><span class="badge" id="q-status"></span><span class="muted" id="q-note"></span></div>
+    <div class="grid">
+      <div>
+        <div class="card">
+          <h2>Items to move</h2>
+          <form id="item-form" class="row edit">
+            <label>Item<select name="item" id="item-select"></select></label>
+            <label style="max-width:100px">Quantity<input name="quantity" type="number" min="1" step="1" value="1" required></label>
+            <label style="max-width:140px">Weight each (kg)<input name="weight" type="number" min="1" step="1" required></label>
+            <button type="submit">Add</button>
+          </form>
+          <table style="margin-top:12px"><thead><tr><th>#</th><th>Item</th><th class="num">Qty</th><th class="num">Weight each (kg)</th><th class="num">Subtotal</th><th></th></tr></thead><tbody id="lines"></tbody></table>
+          <p class="muted" id="no-lines">No items yet.</p>
+          <p class="muted" id="weight-total"></p>
+        </div>
+
+        <div class="card">
+          <h2>Addresses</h2>
+          <form id="route-form" class="row edit">
+            <label>Pickup<input name="pickup" placeholder="12 Maple Street, Springfield" required></label>
+            <label>Delivery<input name="delivery" placeholder="400 Ocean Drive, Shelbyville" required></label>
+            <button type="submit">Find distance</button>
+          </form>
+          <p class="muted" id="route-info"></p>
+        </div>
+
+        <div class="card">
+          <h2>Move date</h2>
+          <div class="cal" id="calendar"></div>
+          <p class="muted" style="margin-bottom:0">Each day shows the trucks still free across all customers.</p>
+        </div>
+
+        <div class="card">
+          <h2>Trucks and movers</h2>
+          <div class="row">
+            <form id="trucks-form" class="row edit" style="flex:1">
+              <label>Trucks<input name="count" type="number" min="1" step="1" required></label>
+              <button type="submit">Set</button>
+            </form>
+            <form id="movers-form" class="row edit" style="flex:1">
+              <label>Movers<input name="count" type="number" min="1" step="1" required></label>
+              <button type="submit">Set</button>
+            </form>
+          </div>
+          <p class="muted" id="crew-info"></p>
+          <div class="warn" id="capacity-warn" hidden></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="card">
+          <h2 id="est-title">Estimate</h2>
+          <div class="est" id="estimate"></div>
+          <div class="warn" id="missing" hidden></div>
+          <div class="row" style="margin-top:14px">
+            <button id="confirm" style="flex:1">Confirm quote</button>
+            <button id="cancel" class="danger" style="flex:1" hidden>Cancel move</button>
+          </div>
+          <p class="muted" id="cancel-info"></p>
+        </div>
+        <div class="card">
+          <h2>Event stream</h2>
+          <ul class="events" id="events"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+  const $ = (id) => document.getElementById(id);
+  const money = (c) => '$' + (c / 100).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+  const short = (id) => id.slice(0, 8);
+
+  async function api(method, url, body) {
+    const res = await fetch(url, { method, headers: body ? { 'Content-Type': 'application/json' } : {}, body: body ? JSON.stringify(body) : undefined });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(data.error || res.statusText);
+    return data;
+  }
+
+  function say(text, kind) { const m = $('msg'); m.textContent = text; m.className = 'msg ' + kind; m.hidden = false; }
+  function hush() { $('msg').hidden = true; }
+
+  let catalog = [];
+  let today = '';
+  let view = null;   // the current quote's view from the server
+
+  // ---- routing: #/ is the list, #/quote/<id> is the calculator --------------------------------
+  async function route() {
+    const match = location.hash.match(/^#\/quote\/(.+)$/);
+    $('home').hidden = !!match;
+    $('calc').hidden = !match;
+    try { match ? await loadQuote(match[1]) : await loadHome(); }
+    catch (err) { say(err.message, 'err'); }
+  }
+  window.addEventListener('hashchange', () => { hush(); route(); });
+
+  $('start').addEventListener('click', async () => {
+    try { const { quoteId } = await api('POST', '/api/quotes'); location.hash = '#/quote/' + quoteId; }
+    catch (err) { say(err.message, 'err'); }
+  });
+
+  // ---- home --------------------------------------------------------------------------------
+  async function loadHome() {
+    const rows = await api('GET', '/api/quotes');
+    $('no-quotes').hidden = rows.length > 0;
+    $('quotes').innerHTML = rows.map((r) => `<tr>
+      <td><a class="open" href="#/quote/${esc(r.quoteId)}">${esc(short(r.quoteId))}</a></td>
+      <td><span class="badge ${r.status}">${r.status}</span></td>
+      <td class="muted">${esc(r.startedAt.slice(0, 16).replace('T', ' '))}</td>
+      <td>${r.moveDate ? esc(r.moveDate) : '<span class="muted">–</span>'}</td>
+      <td class="num">${r.items}</td><td class="num">${r.totalWeightKg} kg</td>
+      <td class="num">${money(r.priceCents)}${r.priceIsFinal ? '' : ' <span class="muted">est.</span>'}</td></tr>`).join('');
+  }
+
+  // ---- the calculator ------------------------------------------------------------------------
+  async function loadQuote(id) {
+    const [v, days] = await Promise.all([api('GET', `/api/quotes/${encodeURIComponent(id)}`), api('GET', '/api/calendar?days=28')]);
+    view = v;
+    render(v, days);
+  }
+
+  // every edit: send one command, then re-read the quote. The server is the source of truth.
+  async function act(path, body, success) {
+    try {
+      const result = await api('POST', `/api/quotes/${encodeURIComponent(view.quote.id)}${path}`, body);
+      if (success) say(success(result), 'ok'); else hush();
+    } catch (err) { say(err.message, 'err'); }
+    await loadQuote(view.quote.id);
+  }
+
+  function render(v, days) {
+    const q = v.quote;
+    const draft = q.status === 'draft';
+    $('q-title').textContent = 'Quote ' + short(q.id);
+    $('q-status').textContent = q.status; $('q-status').className = 'badge ' + q.status;
+    $('q-note').textContent = draft ? 'live estimate · changes are saved as you go' : q.status === 'confirmed' ? 'price locked' : 'cancelled';
+    document.querySelectorAll('.edit input, .edit select, .edit button').forEach((el) => { el.disabled = !draft; });
+
+    // items
+    $('no-lines').hidden = q.lines.length > 0;
+    $('lines').innerHTML = q.lines.map((l) => `<tr>
+      <td class="muted">${l.lineNo}</td><td>${esc(l.item)}</td><td class="num">${l.quantity}</td>
+      <td class="num"><input type="number" min="1" step="1" value="${l.weightKg}" data-weight="${l.lineNo}" ${draft ? '' : 'disabled'}></td>
+      <td class="num">${l.quantity * l.weightKg} kg</td>
+      <td class="num">${draft ? `<button class="ghost small" data-remove="${l.lineNo}">Remove</button>` : ''}</td></tr>`).join('');
+    $('weight-total').textContent = q.lines.length ? `Total weight: ${v.totalWeightKg} kg` : '';
+
+    // route
+    const form = $('route-form');
+    if (q.route && document.activeElement?.form !== form) { form.pickup.value = q.route.pickup; form.delivery.value = q.route.delivery; }
+    $('route-info').textContent = q.route ? `${q.route.distanceKm} km by road (from the maps service)` : 'No addresses yet.';
+
+    // calendar
+    const needed = q.trucks ?? v.suggestedTrucks;
+    $('calendar').innerHTML = days.map((d) => {
+      const dt = new Date(d.date + 'T00:00:00Z');
+      const weekday = dt.toLocaleDateString('en-US', { weekday: 'short', timeZone: 'UTC' });
+      const label = dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+      const past = d.date <= today;
+      const tooFew = d.free < needed && q.moveDate !== d.date;
+      return `<button data-date="${d.date}" class="${q.moveDate === d.date ? 'sel' : ''} ${d.free < 1 ? 'full' : ''}" ${!draft || past || tooFew ? 'disabled' : ''}>
+        <span class="w">${weekday}</span><span class="d">${label}</span><span class="f">${d.free}/${d.fleet} free</span></button>`;
+    }).join('');
+
+    // trucks and movers
+    const tf = $('trucks-form'), mf = $('movers-form');
+    if (document.activeElement?.form !== tf) tf.count.value = q.trucks ?? '';
+    if (document.activeElement?.form !== mf) mf.count.value = q.moversOverride ?? '';
+    tf.count.placeholder = `suggested ${v.suggestedTrucks}`; mf.count.placeholder = `suggested ${v.suggestedMovers}`;
+    $('crew-info').textContent = `Each truck carries ${v.truckCapacityKg} kg. The app suggests ${v.suggestedTrucks} truck(s) and ${v.suggestedMovers} mover(s) for ${v.totalWeightKg} kg`
+      + (q.moversOverride ? `; you chose ${q.moversOverride} movers.` : '.');
+    $('capacity-warn').hidden = v.capacityShortKg === 0;
+    $('capacity-warn').textContent = `${v.estimate.breakdown.trucks} truck(s) are ${v.capacityShortKg} kg short for this load.`;
+
+    // estimate
+    const b = v.estimate.breakdown;
+    $('est-title').textContent = q.status === 'draft' ? 'Estimate' : 'Confirmed price';
+    $('estimate').innerHTML = `
+      <div><span>Base fee</span><span>${money(b.baseCents)}</span></div>
+      <div><span>Trucks · ${b.trucks}</span><span>${money(b.trucksCents)}</span></div>
+      <div><span>Distance · ${q.route ? q.route.distanceKm : 0} km × ${b.trucks}</span><span>${money(b.distanceCents)}</span></div>
+      <div><span>Labour · ${b.movers} movers × ${b.hours} h</span><span>${money(b.labourCents)}</span></div>
+      <div class="total"><span>Total</span><span>${money(q.priceCents ?? b.totalCents)}</span></div>`;
+    $('missing').hidden = !draft || v.estimate.missing.length === 0;
+    $('missing').textContent = v.estimate.missing.length ? 'To confirm, add ' + v.estimate.missing.join(', ') + '.' : '';
+    $('confirm').hidden = !draft;
+    $('cancel').hidden = q.status !== 'confirmed';
+    $('cancel-info').textContent = q.status === 'confirmed'
+      ? `Moving on ${q.moveDate} with ${q.trucks} truck(s). Can be cancelled until ${v.cancellableUntil}.` : '';
+
+    // the stream, newest first: what actually happened
+    $('events').innerHTML = [...v.events].reverse().map((e) => `<li><span class="mono">#${e.seq}</span> <strong>${esc(e.type)}</strong> ${esc(describe(e))}</li>`).join('');
+  }
+
+  function describe(e) {
+    switch (e.type) {
+      case 'ItemAdded': return `line ${e.lineNo}: ${e.quantity} × ${e.item}, ${e.weightKg} kg each`;
+      case 'ItemWeightChanged': return `line ${e.lineNo}: ${e.weightKg} kg each`;
+      case 'ItemRemoved': return `line ${e.lineNo}`;
+      case 'AddressesChosen': return `${e.pickup} → ${e.delivery}, ${e.distanceKm} km`;
+      case 'MoveDateChosen': return e.date;
+      case 'TrucksChosen': case 'MoversChosen': return String(e.count);
+      case 'QuoteConfirmed': return `${money(e.priceCents)}, ${e.trucks} truck(s) on ${e.moveDate}`;
+      case 'QuoteCancelled': return `move on ${e.moveDate} released`;
+      default: return '';
+    }
+  }
+
+  // ---- edits -----------------------------------------------------------------------------------
+  $('item-select').addEventListener('change', () => {
+    const chosen = catalog.find((c) => c.name === $('item-select').value);
+    if (chosen) $('item-form').weight.value = chosen.defaultWeightKg;
+  });
+
+  $('item-form').addEventListener('submit', (ev) => {
+    ev.preventDefault();
+    const f = ev.target;
+    act('/items', { item: f.item.value, quantity: Number(f.quantity.value), weightKg: Number(f.weight.value) });
+    f.quantity.value = 1;
+  });
+
+  $('lines').addEventListener('change', (ev) => {
+    const lineNo = ev.target.dataset.weight;
+    if (lineNo) act(`/items/${lineNo}/weight`, { weightKg: Number(ev.target.value) });
+  });
+  $('lines').addEventListener('click', (ev) => {
+    const lineNo = ev.target.dataset.remove;
+    if (lineNo) act(`/items/${lineNo}/remove`);
+  });
+
+  $('route-form').addEventListener('submit', (ev) => {
+    ev.preventDefault();
+    const f = ev.target;
+    $('route-info').textContent = 'Asking the maps service…';
+    act('/addresses', { pickup: f.pickup.value, delivery: f.delivery.value });
+  });
+
+  $('calendar').addEventListener('click', (ev) => {
+    const button = ev.target.closest('button[data-date]');
+    if (button) act('/move-date', { date: button.dataset.date });
+  });
+
+  $('trucks-form').addEventListener('submit', (ev) => { ev.preventDefault(); act('/trucks', { count: Number(ev.target.count.value) }); });
+  $('movers-form').addEventListener('submit', (ev) => { ev.preventDefault(); act('/movers', { count: Number(ev.target.count.value) }); });
+
+  $('confirm').addEventListener('click', () => act('/confirm', undefined, (r) => `Confirmed at ${money(r.priceCents)}. The trucks are booked.`));
+  $('cancel').addEventListener('click', () => {
+    if (confirm('Cancel this move? The trucks will be released for other customers.')) act('/cancel', undefined, () => 'The move is cancelled and the trucks are released.');
+  });
+
+  // ---- start ------------------------------------------------------------------------------------
+  (async () => {
+    try {
+      const data = await api('GET', '/api/catalog');
+      catalog = data.items; today = data.today;
+      $('item-select').innerHTML = catalog.map((c) => `<option>${esc(c.name)}</option>`).join('');
+      $('item-form').weight.value = catalog[0]?.defaultWeightKg ?? '';
+    } catch (err) { say(err.message, 'err'); }
+    route();
+  })();
+</script>
+</body>
+</html>

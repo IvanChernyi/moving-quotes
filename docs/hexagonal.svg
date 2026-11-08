@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 690" width="990" height="690" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="990" height="690" fill="#ffffff"/>
+
+  <text x="495" y="32" text-anchor="middle" font-size="18" font-weight="600" fill="#1c1e21">Moving quote calculator — hexagonal view</text>
+  <text x="495" y="52" text-anchor="middle" fill="#6b7280">two aggregates inside · sockets on the edge · plugs outside</text>
+
+  <text x="105" y="128" text-anchor="middle" font-size="12" fill="#6b7280" font-style="italic">driving side — who calls in</text>
+  <text x="882" y="128" text-anchor="middle" font-size="12" fill="#6b7280" font-style="italic">driven side — what the core calls</text>
+
+  <!-- app layer -->
+  <polygon points="710,330 600,140 380,140 270,330 380,520 600,520" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="490" y="162" text-anchor="middle" font-weight="600" fill="#3730a3">app layer · commands</text>
+  <text x="490" y="180" text-anchor="middle" font-size="11" fill="#4338ca">startQuote · addItem · choose… · cancel</text>
+  <text x="490" y="482" text-anchor="middle" font-size="11" fill="#4338ca">confirm: reserve trucks, then lock quote</text>
+  <text x="490" y="498" text-anchor="middle" font-size="11" fill="#4338ca">cancel: cancel, then release trucks</text>
+
+  <!-- domain -->
+  <polygon points="640,330 565,200 415,200 340,330 415,460 565,460" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+  <text x="490" y="222" text-anchor="middle" font-weight="600" fill="#065f46">domain · pure</text>
+  <text x="490" y="243" text-anchor="middle" font-size="12" font-weight="600" fill="#047857">Quote · aggregate</text>
+  <text x="490" y="258" text-anchor="middle" font-size="11" fill="#047857">draft → confirmed → cancelled</text>
+  <text x="490" y="273" text-anchor="middle" font-size="11" fill="#047857">items · addresses · date</text>
+  <text x="490" y="287" text-anchor="middle" font-size="11" fill="#047857">trucks · movers · price</text>
+  <text x="490" y="310" text-anchor="middle" font-size="12" font-weight="600" fill="#047857">TruckDay · aggregate</text>
+  <text x="490" y="325" text-anchor="middle" font-size="11" fill="#047857">one per date · fleet size</text>
+  <text x="490" y="339" text-anchor="middle" font-size="11" fill="#047857">reservations by quote</text>
+  <text x="490" y="362" text-anchor="middle" font-size="11" fill="#047857">estimate · totalWeightKg</text>
+  <text x="490" y="376" text-anchor="middle" font-size="11" fill="#047857">suggestedMovers · daysUntilMove</text>
+  <text x="490" y="398" text-anchor="middle" font-size="11" fill="#047857">verbs: (aggregate, input, time)</text>
+  <text x="490" y="412" text-anchor="middle" font-size="11" fill="#047857">→ Result&lt;Event[]&gt;</text>
+  <text x="490" y="436" text-anchor="middle" font-size="11" fill="#059669">no clock · no ids · no I/O</text>
+
+  <!-- driving socket -->
+  <rect x="205" y="312" width="130" height="36" rx="6" fill="#ffffff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="270" y="327" text-anchor="middle" font-size="11" fill="#3730a3">socket</text>
+  <text x="270" y="341" text-anchor="middle" font-size="12" font-weight="600" fill="#3730a3">command functions</text>
+
+  <!-- driven sockets -->
+  <rect x="600" y="217" width="130" height="36" rx="6" fill="#ffffff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="665" y="232" text-anchor="middle" font-size="11" fill="#3730a3">socket</text>
+  <text x="665" y="246" text-anchor="middle" font-size="12" font-weight="600" fill="#3730a3">EventStore&lt;E&gt;</text>
+
+  <rect x="645" y="312" width="120" height="36" rx="6" fill="#ffffff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="705" y="327" text-anchor="middle" font-size="11" fill="#3730a3">socket</text>
+  <text x="705" y="341" text-anchor="middle" font-size="12" font-weight="600" fill="#3730a3">DistanceSource</text>
+
+  <rect x="600" y="407" width="160" height="36" rx="6" fill="#ffffff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="680" y="422" text-anchor="middle" font-size="11" fill="#3730a3">socket · reference data</text>
+  <text x="680" y="436" text-anchor="middle" font-size="12" font-weight="600" fill="#3730a3">Rates · Items · Fleet</text>
+
+  <!-- driving adapters -->
+  <rect x="25" y="160" width="160" height="40" rx="8" fill="#f6f7f9" stroke="#9ca3af"/>
+  <text x="105" y="177" text-anchor="middle" font-weight="600" fill="#1c1e21">Web UI</text>
+  <text x="105" y="192" text-anchor="middle" font-size="11" fill="#6b7280">calculator · calendar</text>
+  <rect x="25" y="250" width="160" height="40" rx="8" fill="#f6f7f9" stroke="#9ca3af"/>
+  <text x="105" y="267" text-anchor="middle" font-weight="600" fill="#1c1e21">HTTP routes</text>
+  <text x="105" y="282" text-anchor="middle" font-size="11" fill="#6b7280">zod at the edge · reply()</text>
+  <rect x="25" y="345" width="160" height="40" rx="8" fill="#f6f7f9" stroke="#9ca3af"/>
+  <text x="105" y="362" text-anchor="middle" font-weight="600" fill="#1c1e21">tests</text>
+  <text x="105" y="377" text-anchor="middle" font-size="11" fill="#6b7280">call the same functions</text>
+  <line x1="105" y1="200" x2="105" y2="248" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <line x1="185" y1="275" x2="205" y2="318" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <line x1="185" y1="362" x2="205" y2="342" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+
+  <!-- driven adapters -->
+  <rect x="795" y="165" width="175" height="40" rx="8" fill="#f6f7f9" stroke="#9ca3af"/>
+  <text x="882" y="182" text-anchor="middle" font-weight="600" fill="#1c1e21">SqlEventStore</text>
+  <text x="882" y="197" text-anchor="middle" font-size="11" fill="#6b7280">stream per aggregate · seq</text>
+  <rect x="795" y="220" width="175" height="40" rx="8" fill="#f6f7f9" stroke="#9ca3af"/>
+  <text x="882" y="237" text-anchor="middle" font-weight="600" fill="#1c1e21">InMemoryEventStore</text>
+  <text x="882" y="252" text-anchor="middle" font-size="11" fill="#6b7280">tests · not a mock</text>
+  <rect x="795" y="300" width="175" height="40" rx="8" fill="#f6f7f9" stroke="#9ca3af"/>
+  <text x="882" y="317" text-anchor="middle" font-weight="600" fill="#1c1e21">MapsDistanceSource</text>
+  <text x="882" y="332" text-anchor="middle" font-size="11" fill="#6b7280">maps API · timeout · Result</text>
+  <rect x="795" y="350" width="175" height="40" rx="8" fill="#f6f7f9" stroke="#9ca3af"/>
+  <text x="882" y="367" text-anchor="middle" font-weight="600" fill="#1c1e21">FixedDistanceSource</text>
+  <text x="882" y="382" text-anchor="middle" font-size="11" fill="#6b7280">tests · offline</text>
+  <rect x="795" y="420" width="175" height="40" rx="8" fill="#f6f7f9" stroke="#9ca3af"/>
+  <text x="882" y="437" text-anchor="middle" font-weight="600" fill="#1c1e21">constants.ts</text>
+  <text x="882" y="452" text-anchor="middle" font-size="11" fill="#6b7280">rates · weights · fleet</text>
+  <line x1="795" y1="185" x2="732" y2="228" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <line x1="795" y1="240" x2="732" y2="242" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <line x1="795" y1="320" x2="767" y2="326" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <line x1="795" y1="370" x2="767" y2="340" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <line x1="795" y1="440" x2="762" y2="428" stroke="#555" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <text x="780" y="290" text-anchor="middle" font-size="11" fill="#6b7280">implements</text>
+
+  <!-- read side -->
+  <text x="205" y="560" font-size="12" font-weight="600" fill="#9a3412">read side · projections built from the events</text>
+  <rect x="205" y="570" width="180" height="42" rx="8" fill="#fff7ed" stroke="#ea580c"/>
+  <text x="295" y="587" text-anchor="middle" font-weight="600" fill="#9a3412">calculator page</text>
+  <text x="295" y="603" text-anchor="middle" font-size="11" fill="#c2410c">fold + estimate</text>
+  <rect x="400" y="570" width="180" height="42" rx="8" fill="#fff7ed" stroke="#ea580c"/>
+  <text x="490" y="587" text-anchor="middle" font-weight="600" fill="#9a3412">availability calendar</text>
+  <text x="490" y="603" text-anchor="middle" font-size="11" fill="#c2410c">free trucks per date</text>
+  <rect x="595" y="570" width="180" height="42" rx="8" fill="#fff7ed" stroke="#ea580c"/>
+  <text x="685" y="587" text-anchor="middle" font-weight="600" fill="#9a3412">office list</text>
+  <text x="685" y="603" text-anchor="middle" font-size="11" fill="#c2410c">quotes by status and date</text>
+  <path d="M25,180 L12,180 L12,591 L203,591" fill="none" stroke="#555" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <text x="108" y="584" text-anchor="middle" font-size="11" fill="#6b7280">UI shows them</text>
+
+  <!-- composition root -->
+  <rect x="25" y="632" width="945" height="38" rx="8" fill="#fef3c7" stroke="#d97706"/>
+  <text x="497" y="648" text-anchor="middle" font-weight="600" fill="#92400e">main.ts · composition root</text>
+  <text x="497" y="663" text-anchor="middle" font-size="11" fill="#b45309">picks the plugs: maps API or fixed distances · constant rates, items and fleet · wires stores, clock and id generator · app.listen</text>
+</svg>
