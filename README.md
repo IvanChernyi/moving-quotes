@@ -6,7 +6,12 @@ move date and the number of trucks. The app suggests the movers and shows a live
 estimate. Confirming locks the price and books the trucks for that day. A
 confirmed move can be cancelled with more than 7 days' notice.
 
-Event-sourced, hexagonal. The plan and the diagram are in [`docs/`](docs/).
+Event-sourced, hexagonal. The full design, the plan-versus-build differences,
+what was verified and the open questions are in
+[`docs/2026-11-08-summary.md`](docs/2026-11-08-summary.md). The plan as written
+before the build is [`docs/plan.md`](docs/plan.md).
+
+![Hexagonal view of the moving quote calculator](docs/hexagonal.svg)
 
 ## Run
 

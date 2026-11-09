@@ -1,5 +1,8 @@
 # Moving quote calculator — plan
 
+> Written before the build. What changed while building, and why, is in
+> [`2026-11-08-summary.md`](2026-11-08-summary.md#12-plan-versus-build).
+
 ## 1. Problem
 
 A customer opens the moving company's web page and starts a quote. On the
