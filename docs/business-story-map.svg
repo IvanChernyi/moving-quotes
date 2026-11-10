@@ -1,0 +1,282 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1170 1298" width="1170" height="1298" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+<rect width="1170" height="1298" fill="#ffffff"/>
+<text x="585" y="34" text-anchor="middle" font-size="18" font-weight="600" fill="#1c1e21">Moving company: business story map</text>
+<text x="585" y="56" text-anchor="middle" fill="#6b7280">from the first quote to payment · time runs top to bottom · event-storming colours</text>
+<g><rect x="130" y="88" width="112" height="28" rx="4" fill="#fef08a" stroke="#ca8a04" stroke-width="1.2"/>
+<text x="186" y="106.32" text-anchor="middle" font-size="12" fill="#1c1e21">Customer</text>
+</g>
+<g><rect x="252" y="88" width="112" height="28" rx="4" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.2"/>
+<text x="308" y="106.32" text-anchor="middle" font-size="12" fill="#1c1e21">What people see</text>
+</g>
+<g><rect x="374" y="88" width="112" height="28" rx="4" fill="#fef9c3" stroke="#a16207" stroke-width="1.2"/>
+<text x="430" y="106.32" text-anchor="middle" font-size="12" fill="#1c1e21">Quote</text>
+</g>
+<g><rect x="496" y="88" width="112" height="28" rx="4" fill="#fef9c3" stroke="#a16207" stroke-width="1.2"/>
+<text x="552" y="106.32" text-anchor="middle" font-size="12" fill="#1c1e21">Truck day</text>
+</g>
+<g><rect x="618" y="88" width="140" height="28" rx="4" fill="#e9d5ff" stroke="#9333ea" stroke-width="1.2"/>
+<text x="688" y="106.32" text-anchor="middle" font-size="12" fill="#1c1e21">Rules</text>
+</g>
+<g><rect x="770" y="88" width="112" height="28" rx="4" fill="#fef08a" stroke="#ca8a04" stroke-width="1.2"/>
+<text x="826" y="106.32" text-anchor="middle" font-size="12" fill="#1c1e21">Office &amp; crew</text>
+</g>
+<g><rect x="892" y="88" width="112" height="28" rx="4" fill="#fbcfe8" stroke="#db2777" stroke-width="1.2"/>
+<text x="948" y="106.32" text-anchor="middle" font-size="12" fill="#1c1e21">Outside world</text>
+</g>
+<g><rect x="1014" y="88" width="140" height="28" rx="4" fill="#fecaca" stroke="#dc2626" stroke-width="1.2"/>
+<text x="1084" y="106.32" text-anchor="middle" font-size="12" fill="#1c1e21">Open questions</text>
+</g>
+<rect x="8" y="126" width="112" height="348" rx="6" fill="#f3f4f6"/>
+<text x="18" y="148" font-size="13" font-weight="600" fill="#1c1e21">1 · Plan</text>
+<text x="18" y="164" font-size="13" font-weight="600" fill="#1c1e21">the move</text>
+<text x="18" y="184" font-size="11" fill="#6b7280">the customer</text>
+<text x="18" y="198" font-size="11" fill="#6b7280">drafts a quote</text>
+<rect x="8" y="498" width="112" height="208" rx="6" fill="#f3f4f6"/>
+<text x="18" y="520" font-size="13" font-weight="600" fill="#1c1e21">2 · Book it</text>
+<text x="18" y="540" font-size="11" fill="#6b7280">price locked,</text>
+<text x="18" y="554" font-size="11" fill="#6b7280">trucks held</text>
+<line x1="126" y1="486" x2="1160" y2="486" stroke="#d1d5db" stroke-width="1"/>
+<rect x="8" y="730" width="112" height="208" rx="6" fill="#f3f4f6"/>
+<text x="18" y="752" font-size="13" font-weight="600" fill="#1c1e21">3 · Before</text>
+<text x="18" y="768" font-size="13" font-weight="600" fill="#1c1e21">the move</text>
+<text x="18" y="788" font-size="11" fill="#6b7280">cancel window,</text>
+<text x="18" y="802" font-size="11" fill="#6b7280">office planning</text>
+<line x1="126" y1="718" x2="1160" y2="718" stroke="#d1d5db" stroke-width="1"/>
+<rect x="8" y="962" width="112" height="138" rx="6" fill="#f3f4f6"/>
+<text x="18" y="984" font-size="13" font-weight="600" fill="#1c1e21">4 · Move day</text>
+<text x="18" y="1004" font-size="11" fill="#6b7280">the crew does</text>
+<text x="18" y="1018" font-size="11" fill="#6b7280">the work</text>
+<line x1="126" y1="950" x2="1160" y2="950" stroke="#d1d5db" stroke-width="1"/>
+<rect x="8" y="1124" width="112" height="68" rx="6" fill="#f3f4f6"/>
+<text x="18" y="1146" font-size="13" font-weight="600" fill="#1c1e21">5 · After</text>
+<text x="18" y="1166" font-size="11" fill="#6b7280">paying and</text>
+<text x="18" y="1180" font-size="11" fill="#6b7280">settling up</text>
+<line x1="126" y1="1112" x2="1160" y2="1112" stroke="#d1d5db" stroke-width="1"/>
+<rect x="124" y="124" width="640" height="814" rx="8" fill="none" stroke="#4f46e5" stroke-width="1.6" stroke-dasharray="7 4"/>
+<text x="134" y="930" font-size="12" font-weight="600" fill="#4338ca">what the quote app automates today</text>
+<g><rect x="130" y="132" width="112" height="56" rx="4" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.2"/>
+<text x="186" y="163.96" text-anchor="middle" font-size="11" fill="#1c1e21">Start a quote</text>
+</g>
+<g><rect x="374" y="132" width="112" height="56" rx="4" fill="#fed7aa" stroke="#ea580c" stroke-width="1.2"/>
+<text x="430" y="163.96" text-anchor="middle" font-size="11" fill="#1c1e21">Quote started</text>
+</g>
+<g><rect x="130" y="202" width="112" height="56" rx="4" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.2"/>
+<text x="186" y="227.46" text-anchor="middle" font-size="11" fill="#1c1e21">Add items,</text>
+<text x="186" y="240.46" text-anchor="middle" font-size="11" fill="#1c1e21">adjust weights</text>
+</g>
+<g><rect x="252" y="202" width="112" height="56" rx="4" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.2"/>
+<text x="308" y="227.46" text-anchor="middle" font-size="11" fill="#1c1e21">Live estimate</text>
+<text x="308" y="240.46" text-anchor="middle" font-size="11" fill="#1c1e21">updates</text>
+</g>
+<g><rect x="374" y="202" width="112" height="56" rx="4" fill="#fed7aa" stroke="#ea580c" stroke-width="1.2"/>
+<text x="430" y="220.96" text-anchor="middle" font-size="11" fill="#1c1e21">Item added,</text>
+<text x="430" y="233.96" text-anchor="middle" font-size="11" fill="#1c1e21">weight changed,</text>
+<text x="430" y="246.96" text-anchor="middle" font-size="11" fill="#1c1e21">item removed</text>
+</g>
+<g><rect x="618" y="202" width="140" height="56" rx="4" fill="#e9d5ff" stroke="#9333ea" stroke-width="1.2"/>
+<text x="688" y="220.96" text-anchor="middle" font-size="11" fill="#1c1e21">Usual weights</text>
+<text x="688" y="233.96" text-anchor="middle" font-size="11" fill="#1c1e21">by default; the</text>
+<text x="688" y="246.96" text-anchor="middle" font-size="11" fill="#1c1e21">customer may change</text>
+</g>
+<g opacity="0.55"><rect x="770" y="202" width="112" height="56" rx="4" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="826" y="220.96" text-anchor="middle" font-size="11" fill="#1c1e21">Office sets rates,</text>
+<text x="826" y="233.96" text-anchor="middle" font-size="11" fill="#1c1e21">item weights,</text>
+<text x="826" y="246.96" text-anchor="middle" font-size="11" fill="#1c1e21">fleet size</text>
+</g>
+<g><rect x="130" y="272" width="112" height="56" rx="4" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.2"/>
+<text x="186" y="290.96" text-anchor="middle" font-size="11" fill="#1c1e21">Give pickup</text>
+<text x="186" y="303.96" text-anchor="middle" font-size="11" fill="#1c1e21">and delivery</text>
+<text x="186" y="316.96" text-anchor="middle" font-size="11" fill="#1c1e21">addresses</text>
+</g>
+<g><rect x="374" y="272" width="112" height="56" rx="4" fill="#fed7aa" stroke="#ea580c" stroke-width="1.2"/>
+<text x="430" y="297.46" text-anchor="middle" font-size="11" fill="#1c1e21">Addresses chosen,</text>
+<text x="430" y="310.46" text-anchor="middle" font-size="11" fill="#1c1e21">distance recorded</text>
+</g>
+<g><rect x="618" y="272" width="140" height="56" rx="4" fill="#e9d5ff" stroke="#9333ea" stroke-width="1.2"/>
+<text x="688" y="290.96" text-anchor="middle" font-size="11" fill="#1c1e21">Distance kept as</text>
+<text x="688" y="303.96" text-anchor="middle" font-size="11" fill="#1c1e21">fetched, never</text>
+<text x="688" y="316.96" text-anchor="middle" font-size="11" fill="#1c1e21">recalculated</text>
+</g>
+<g><rect x="892" y="272" width="112" height="56" rx="4" fill="#fbcfe8" stroke="#db2777" stroke-width="1.2"/>
+<text x="948" y="297.46" text-anchor="middle" font-size="11" fill="#1c1e21">Maps service:</text>
+<text x="948" y="310.46" text-anchor="middle" font-size="11" fill="#1c1e21">distance in km</text>
+</g>
+<g><rect x="130" y="342" width="112" height="56" rx="4" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.2"/>
+<text x="186" y="367.46" text-anchor="middle" font-size="11" fill="#1c1e21">Pick a</text>
+<text x="186" y="380.46" text-anchor="middle" font-size="11" fill="#1c1e21">move date</text>
+</g>
+<g><rect x="252" y="342" width="112" height="56" rx="4" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.2"/>
+<text x="308" y="360.96" text-anchor="middle" font-size="11" fill="#1c1e21">Calendar of</text>
+<text x="308" y="373.96" text-anchor="middle" font-size="11" fill="#1c1e21">free trucks</text>
+<text x="308" y="386.96" text-anchor="middle" font-size="11" fill="#1c1e21">per day</text>
+</g>
+<g><rect x="374" y="342" width="112" height="56" rx="4" fill="#fed7aa" stroke="#ea580c" stroke-width="1.2"/>
+<text x="430" y="367.46" text-anchor="middle" font-size="11" fill="#1c1e21">Move date</text>
+<text x="430" y="380.46" text-anchor="middle" font-size="11" fill="#1c1e21">chosen</text>
+</g>
+<g><rect x="618" y="342" width="140" height="56" rx="4" fill="#e9d5ff" stroke="#9333ea" stroke-width="1.2"/>
+<text x="688" y="367.46" text-anchor="middle" font-size="11" fill="#1c1e21">The move date must</text>
+<text x="688" y="380.46" text-anchor="middle" font-size="11" fill="#1c1e21">be after today</text>
+</g>
+<g><rect x="130" y="412" width="112" height="56" rx="4" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.2"/>
+<text x="186" y="437.46" text-anchor="middle" font-size="11" fill="#1c1e21">Choose trucks</text>
+<text x="186" y="450.46" text-anchor="middle" font-size="11" fill="#1c1e21">and movers</text>
+</g>
+<g><rect x="252" y="412" width="112" height="56" rx="4" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.2"/>
+<text x="308" y="430.96" text-anchor="middle" font-size="11" fill="#1c1e21">Suggested trucks</text>
+<text x="308" y="443.96" text-anchor="middle" font-size="11" fill="#1c1e21">and movers,</text>
+<text x="308" y="456.96" text-anchor="middle" font-size="11" fill="#1c1e21">capacity warning</text>
+</g>
+<g><rect x="374" y="412" width="112" height="56" rx="4" fill="#fed7aa" stroke="#ea580c" stroke-width="1.2"/>
+<text x="430" y="437.46" text-anchor="middle" font-size="11" fill="#1c1e21">Trucks chosen,</text>
+<text x="430" y="450.46" text-anchor="middle" font-size="11" fill="#1c1e21">movers chosen</text>
+</g>
+<g><rect x="618" y="412" width="140" height="56" rx="4" fill="#e9d5ff" stroke="#9333ea" stroke-width="1.2"/>
+<text x="688" y="430.96" text-anchor="middle" font-size="11" fill="#1c1e21">Movers suggested</text>
+<text x="688" y="443.96" text-anchor="middle" font-size="11" fill="#1c1e21">from the weight;</text>
+<text x="688" y="456.96" text-anchor="middle" font-size="11" fill="#1c1e21">the customer decides</text>
+</g>
+<g><rect x="1014" y="412" width="140" height="56" rx="4" fill="#fecaca" stroke="#dc2626" stroke-width="1.2"/>
+<text x="1084" y="430.96" text-anchor="middle" font-size="11" fill="#1c1e21">Drafts never</text>
+<text x="1084" y="443.96" text-anchor="middle" font-size="11" fill="#1c1e21">confirmed:</text>
+<text x="1084" y="456.96" text-anchor="middle" font-size="11" fill="#1c1e21">expire them?</text>
+</g>
+<g><rect x="130" y="504" width="112" height="56" rx="4" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.2"/>
+<text x="186" y="529.46" text-anchor="middle" font-size="11" fill="#1c1e21">Confirm</text>
+<text x="186" y="542.46" text-anchor="middle" font-size="11" fill="#1c1e21">the quote</text>
+</g>
+<g><rect x="618" y="504" width="140" height="56" rx="4" fill="#e9d5ff" stroke="#9333ea" stroke-width="1.2"/>
+<text x="688" y="522.96" text-anchor="middle" font-size="11" fill="#1c1e21">Reserve the trucks</text>
+<text x="688" y="535.96" text-anchor="middle" font-size="11" fill="#1c1e21">first, then lock</text>
+<text x="688" y="548.96" text-anchor="middle" font-size="11" fill="#1c1e21">the price</text>
+</g>
+<g><rect x="496" y="574" width="112" height="56" rx="4" fill="#fed7aa" stroke="#ea580c" stroke-width="1.2"/>
+<text x="552" y="599.46" text-anchor="middle" font-size="11" fill="#1c1e21">Trucks reserved</text>
+<text x="552" y="612.46" text-anchor="middle" font-size="11" fill="#1c1e21">for the day</text>
+</g>
+<g><rect x="618" y="574" width="140" height="56" rx="4" fill="#e9d5ff" stroke="#9333ea" stroke-width="1.2"/>
+<text x="688" y="592.96" text-anchor="middle" font-size="11" fill="#1c1e21">A day never books</text>
+<text x="688" y="605.96" text-anchor="middle" font-size="11" fill="#1c1e21">more trucks</text>
+<text x="688" y="618.96" text-anchor="middle" font-size="11" fill="#1c1e21">than it has</text>
+</g>
+<g><rect x="252" y="644" width="112" height="56" rx="4" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.2"/>
+<text x="308" y="662.96" text-anchor="middle" font-size="11" fill="#1c1e21">Confirmed price,</text>
+<text x="308" y="675.96" text-anchor="middle" font-size="11" fill="#1c1e21">last day</text>
+<text x="308" y="688.96" text-anchor="middle" font-size="11" fill="#1c1e21">to cancel</text>
+</g>
+<g><rect x="374" y="644" width="112" height="56" rx="4" fill="#fed7aa" stroke="#ea580c" stroke-width="1.2"/>
+<text x="430" y="669.46" text-anchor="middle" font-size="11" fill="#1c1e21">Quote confirmed,</text>
+<text x="430" y="682.46" text-anchor="middle" font-size="11" fill="#1c1e21">price locked</text>
+</g>
+<g><rect x="496" y="644" width="112" height="56" rx="4" fill="#fed7aa" stroke="#ea580c" stroke-width="1.2"/>
+<text x="552" y="662.96" text-anchor="middle" font-size="11" fill="#1c1e21">Trucks released,</text>
+<text x="552" y="675.96" text-anchor="middle" font-size="11" fill="#1c1e21">only if locking</text>
+<text x="552" y="688.96" text-anchor="middle" font-size="11" fill="#1c1e21">failed</text>
+</g>
+<g><rect x="618" y="644" width="140" height="56" rx="4" fill="#e9d5ff" stroke="#9333ea" stroke-width="1.2"/>
+<text x="688" y="662.96" text-anchor="middle" font-size="11" fill="#1c1e21">If locking fails,</text>
+<text x="688" y="675.96" text-anchor="middle" font-size="11" fill="#1c1e21">give the trucks</text>
+<text x="688" y="688.96" text-anchor="middle" font-size="11" fill="#1c1e21">back</text>
+</g>
+<g><rect x="130" y="736" width="112" height="56" rx="4" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.2"/>
+<text x="186" y="761.46" text-anchor="middle" font-size="11" fill="#1c1e21">Cancel</text>
+<text x="186" y="774.46" text-anchor="middle" font-size="11" fill="#1c1e21">the move</text>
+</g>
+<g><rect x="374" y="736" width="112" height="56" rx="4" fill="#fed7aa" stroke="#ea580c" stroke-width="1.2"/>
+<text x="430" y="761.46" text-anchor="middle" font-size="11" fill="#1c1e21">Quote</text>
+<text x="430" y="774.46" text-anchor="middle" font-size="11" fill="#1c1e21">cancelled</text>
+</g>
+<g><rect x="618" y="736" width="140" height="56" rx="4" fill="#e9d5ff" stroke="#9333ea" stroke-width="1.2"/>
+<text x="688" y="754.96" text-anchor="middle" font-size="11" fill="#1c1e21">Cancel only with</text>
+<text x="688" y="767.96" text-anchor="middle" font-size="11" fill="#1c1e21">more than 7 days'</text>
+<text x="688" y="780.96" text-anchor="middle" font-size="11" fill="#1c1e21">notice</text>
+</g>
+<g><rect x="252" y="806" width="112" height="56" rx="4" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.2"/>
+<text x="308" y="824.96" text-anchor="middle" font-size="11" fill="#1c1e21">Office list:</text>
+<text x="308" y="837.96" text-anchor="middle" font-size="11" fill="#1c1e21">every quote</text>
+<text x="308" y="850.96" text-anchor="middle" font-size="11" fill="#1c1e21">and its status</text>
+</g>
+<g><rect x="496" y="806" width="112" height="56" rx="4" fill="#fed7aa" stroke="#ea580c" stroke-width="1.2"/>
+<text x="552" y="831.46" text-anchor="middle" font-size="11" fill="#1c1e21">Trucks</text>
+<text x="552" y="844.46" text-anchor="middle" font-size="11" fill="#1c1e21">released</text>
+</g>
+<g><rect x="618" y="806" width="140" height="56" rx="4" fill="#e9d5ff" stroke="#9333ea" stroke-width="1.2"/>
+<text x="688" y="824.96" text-anchor="middle" font-size="11" fill="#1c1e21">When a move is</text>
+<text x="688" y="837.96" text-anchor="middle" font-size="11" fill="#1c1e21">cancelled, release</text>
+<text x="688" y="850.96" text-anchor="middle" font-size="11" fill="#1c1e21">its trucks</text>
+</g>
+<g opacity="0.55"><rect x="770" y="876" width="112" height="56" rx="4" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="826" y="894.96" text-anchor="middle" font-size="11" fill="#1c1e21">Office plans</text>
+<text x="826" y="907.96" text-anchor="middle" font-size="11" fill="#1c1e21">crews and trucks</text>
+<text x="826" y="920.96" text-anchor="middle" font-size="11" fill="#1c1e21">for the day</text>
+</g>
+<g><rect x="1014" y="876" width="140" height="56" rx="4" fill="#fecaca" stroke="#dc2626" stroke-width="1.2"/>
+<text x="1084" y="894.96" text-anchor="middle" font-size="11" fill="#1c1e21">Phone bookings in</text>
+<text x="1084" y="907.96" text-anchor="middle" font-size="11" fill="#1c1e21">a paper diary:</text>
+<text x="1084" y="920.96" text-anchor="middle" font-size="11" fill="#1c1e21">two sources?</text>
+</g>
+<g opacity="0.55"><rect x="770" y="968" width="112" height="56" rx="4" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="826" y="986.96" text-anchor="middle" font-size="11" fill="#1c1e21">Crew arrives,</text>
+<text x="826" y="999.96" text-anchor="middle" font-size="11" fill="#1c1e21">loads, drives,</text>
+<text x="826" y="1012.96" text-anchor="middle" font-size="11" fill="#1c1e21">unloads</text>
+</g>
+<g><rect x="1014" y="968" width="140" height="56" rx="4" fill="#fecaca" stroke="#dc2626" stroke-width="1.2"/>
+<text x="1084" y="986.96" text-anchor="middle" font-size="11" fill="#1c1e21">A truck breaks down:</text>
+<text x="1084" y="999.96" text-anchor="middle" font-size="11" fill="#1c1e21">which customer</text>
+<text x="1084" y="1012.96" text-anchor="middle" font-size="11" fill="#1c1e21">loses it? Who pays?</text>
+</g>
+<g opacity="0.55"><rect x="374" y="1038" width="112" height="56" rx="4" fill="#fed7aa" stroke="#ea580c" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="430" y="1069.96" text-anchor="middle" font-size="11" fill="#1c1e21">Move completed</text>
+</g>
+<g><rect x="1014" y="1038" width="140" height="56" rx="4" fill="#fecaca" stroke="#dc2626" stroke-width="1.2"/>
+<text x="1084" y="1056.96" text-anchor="middle" font-size="11" fill="#1c1e21">40 boxes, not 20:</text>
+<text x="1084" y="1069.96" text-anchor="middle" font-size="11" fill="#1c1e21">does the locked</text>
+<text x="1084" y="1082.96" text-anchor="middle" font-size="11" fill="#1c1e21">price hold?</text>
+</g>
+<g opacity="0.55"><rect x="130" y="1130" width="112" height="56" rx="4" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="186" y="1155.46" text-anchor="middle" font-size="11" fill="#1c1e21">Pay the</text>
+<text x="186" y="1168.46" text-anchor="middle" font-size="11" fill="#1c1e21">invoice</text>
+</g>
+<g opacity="0.55"><rect x="374" y="1130" width="112" height="56" rx="4" fill="#fed7aa" stroke="#ea580c" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="430" y="1155.46" text-anchor="middle" font-size="11" fill="#1c1e21">Invoice sent,</text>
+<text x="430" y="1168.46" text-anchor="middle" font-size="11" fill="#1c1e21">payment received</text>
+</g>
+<g opacity="0.55"><rect x="892" y="1130" width="112" height="56" rx="4" fill="#fbcfe8" stroke="#db2777" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="948" y="1155.46" text-anchor="middle" font-size="11" fill="#1c1e21">Payment</text>
+<text x="948" y="1168.46" text-anchor="middle" font-size="11" fill="#1c1e21">provider</text>
+</g>
+<g><rect x="1014" y="1130" width="140" height="56" rx="4" fill="#fecaca" stroke="#dc2626" stroke-width="1.2"/>
+<text x="1084" y="1148.96" text-anchor="middle" font-size="11" fill="#1c1e21">Damage or a late</text>
+<text x="1084" y="1161.96" text-anchor="middle" font-size="11" fill="#1c1e21">crew: who</text>
+<text x="1084" y="1174.96" text-anchor="middle" font-size="11" fill="#1c1e21">refunds?</text>
+</g>
+<g><rect x="130" y="1220" width="30" height="18" rx="4" fill="#fef08a" stroke="#ca8a04" stroke-width="1.2"/>
+</g>
+<text x="168" y="1233" font-size="11" fill="#374151">Actor</text>
+<g><rect x="336" y="1220" width="30" height="18" rx="4" fill="#fef9c3" stroke="#a16207" stroke-width="1.2"/>
+</g>
+<text x="374" y="1233" font-size="11" fill="#374151">Business object</text>
+<g><rect x="542" y="1220" width="30" height="18" rx="4" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.2"/>
+</g>
+<text x="580" y="1233" font-size="11" fill="#374151">Action someone takes</text>
+<g><rect x="748" y="1220" width="30" height="18" rx="4" fill="#fed7aa" stroke="#ea580c" stroke-width="1.2"/>
+</g>
+<text x="786" y="1233" font-size="11" fill="#374151">Event: a fact</text>
+<g><rect x="954" y="1220" width="30" height="18" rx="4" fill="#e9d5ff" stroke="#9333ea" stroke-width="1.2"/>
+</g>
+<text x="992" y="1233" font-size="11" fill="#374151">Rule</text>
+<g><rect x="130" y="1250" width="30" height="18" rx="4" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.2"/>
+</g>
+<text x="168" y="1263" font-size="11" fill="#374151">What people see</text>
+<g><rect x="336" y="1250" width="30" height="18" rx="4" fill="#fbcfe8" stroke="#db2777" stroke-width="1.2"/>
+</g>
+<text x="374" y="1263" font-size="11" fill="#374151">Outside system</text>
+<g><rect x="542" y="1250" width="30" height="18" rx="4" fill="#fecaca" stroke="#dc2626" stroke-width="1.2"/>
+</g>
+<text x="580" y="1263" font-size="11" fill="#374151">Open question</text>
+<g opacity="0.55"><rect x="748" y="1250" width="30" height="18" rx="4" fill="#bfdbfe" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="4 3"/>
+</g>
+<text x="786" y="1263" font-size="11" fill="#374151">Not in the app yet</text>
+<rect x="954" y="1250" width="30" height="18" rx="4" fill="none" stroke="#4f46e5" stroke-width="1.6" stroke-dasharray="7 4"/>
+<text x="992" y="1263" font-size="11" fill="#374151">Automated today</text>
+</svg>

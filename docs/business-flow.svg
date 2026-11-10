@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1230 950" width="1230" height="950" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#374151" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="1230" height="950" fill="#ffffff"/>
+
+  <text x="615" y="34" text-anchor="middle" font-size="18" font-weight="600" fill="#1c1e21">Moving company: who does what</text>
+  <text x="615" y="56" text-anchor="middle" fill="#6b7280">the business entities and the actions that connect them · numbers give the order</text>
+  <text x="615" y="76" text-anchor="middle" font-size="12" fill="#6b7280">yellow: people · pale: things the business keeps track of · red: what can go wrong</text>
+
+  <!-- ===== people ===== -->
+  <rect x="30" y="110" width="180" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
+  <text x="120" y="141" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">User</text>
+  <text x="120" y="162" text-anchor="middle" font-size="11.5" fill="#44403c">wants to move house,</text>
+  <text x="120" y="177" text-anchor="middle" font-size="11.5" fill="#44403c">knows the items roughly</text>
+
+  <rect x="360" y="110" width="180" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
+  <text x="450" y="141" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Sales person</text>
+  <text x="450" y="162" text-anchor="middle" font-size="11.5" fill="#44403c">answers the phone,</text>
+  <text x="450" y="177" text-anchor="middle" font-size="11.5" fill="#44403c">drafts the quote</text>
+
+  <rect x="1020" y="110" width="180" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
+  <text x="1110" y="141" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Manager</text>
+  <text x="1110" y="162" text-anchor="middle" font-size="11.5" fill="#44403c">owns the calendar,</text>
+  <text x="1110" y="177" text-anchor="middle" font-size="11.5" fill="#44403c">approves quotes</text>
+
+  <rect x="640" y="470" width="180" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
+  <text x="730" y="501" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Movers</text>
+  <text x="730" y="522" text-anchor="middle" font-size="11.5" fill="#44403c">the crew: free or</text>
+  <text x="730" y="537" text-anchor="middle" font-size="11.5" fill="#44403c">booked on each day</text>
+
+  <!-- ===== things ===== -->
+  <!-- the quote: a document -->
+  <path d="M690,110 L852,110 L870,128 L870,196 L690,196 Z" fill="#fef9c3" stroke="#a16207" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M852,110 L852,128 L870,128" fill="none" stroke="#a16207" stroke-width="1.2" stroke-linejoin="round"/>
+  <text x="780" y="141" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Quote</text>
+  <text x="780" y="162" text-anchor="middle" font-size="11.5" fill="#44403c">items, weights, addresses,</text>
+  <text x="780" y="177" text-anchor="middle" font-size="11.5" fill="#44403c">date, price · draft or approved</text>
+
+  <!-- the booking calendar -->
+  <rect x="900" y="290" width="260" height="100" rx="10" fill="#fef9c3" stroke="#a16207" stroke-width="1.4"/>
+  <line x1="900" y1="312" x2="1160" y2="312" stroke="#a16207" stroke-width="1"/>
+  <circle cx="930" cy="290" r="4" fill="#a16207"/>
+  <circle cx="1130" cy="290" r="4" fill="#a16207"/>
+  <text x="1030" y="306" text-anchor="middle" font-size="12" font-weight="600" fill="#713f12">CALENDAR</text>
+  <text x="1030" y="338" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Booking calendar</text>
+  <text x="1030" y="359" text-anchor="middle" font-size="11.5" fill="#44403c">which movers and trucks</text>
+  <text x="1030" y="374" text-anchor="middle" font-size="11.5" fill="#44403c">are booked on each day</text>
+
+  <rect x="900" y="470" width="180" height="86" rx="10" fill="#fef9c3" stroke="#a16207" stroke-width="1.4"/>
+  <text x="990" y="501" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Trucks</text>
+  <text x="990" y="522" text-anchor="middle" font-size="11.5" fill="#44403c">free, booked or broken;</text>
+  <text x="990" y="537" text-anchor="middle" font-size="11.5" fill="#44403c">each carries a set weight</text>
+
+  <!-- what can go wrong -->
+  <rect x="900" y="600" width="180" height="66" rx="10" fill="#fecaca" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="990" y="628" text-anchor="middle" font-size="13" font-weight="600" fill="#7f1d1d">A truck breaks down</text>
+  <text x="990" y="647" text-anchor="middle" font-size="11.5" fill="#991b1b">after it was booked</text>
+
+  <!-- ===== actions ===== -->
+  <!-- user and sales person -->
+  <line x1="212" y1="126" x2="358" y2="126" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="285" y="120" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">1</tspan>  calls the company</text>
+  <line x1="358" y1="153" x2="212" y2="153" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="285" y="147" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">2</tspan>  asks: items, weight</text>
+  <line x1="358" y1="180" x2="212" y2="180" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="285" y="174" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">8</tspan>  confirms the price</text>
+
+  <!-- sales person, quote, manager -->
+  <line x1="542" y1="153" x2="688" y2="153" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="615" y="147" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">3</tspan>  drafts</text>
+  <line x1="872" y1="133" x2="1018" y2="133" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="945" y="127" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">4</tspan>  goes to the manager</text>
+  <line x1="1018" y1="170" x2="872" y2="170" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="945" y="164" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">7</tspan>  approves, or new date</text>
+
+  <!-- manager and the calendar -->
+  <line x1="1110" y1="198" x2="1080" y2="284" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="1085" y="245" text-anchor="end" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">5</tspan>  checks the calendar</text>
+
+  <!-- the calendar books movers and trucks -->
+  <line x1="950" y1="392" x2="760" y2="468" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="845" y="425" text-anchor="end" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">6</tspan>  books the crew</text>
+  <line x1="1000" y1="392" x2="990" y2="468" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="1006" y="438" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">6</tspan>  books the trucks</text>
+
+  <!-- move day -->
+  <line x1="822" y1="513" x2="898" y2="513" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="860" y="505" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">9</tspan>  drive</text>
+  <path d="M638,530 L120,530 L120,200" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="380" y="522" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">10</tspan>  load and deliver on move day</text>
+
+  <!-- the breakdown -->
+  <line x1="990" y1="558" x2="990" y2="598" stroke="#dc2626" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#arrow-red)"/>
+  <text x="982" y="584" text-anchor="end" font-size="11.5" fill="#b91c1c"><tspan font-weight="700">!</tspan>  can break down</text>
+  <path d="M1082,633 L1200,633 L1200,340 L1163,340" fill="none" stroke="#dc2626" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#arrow-red)"/>
+  <text x="1192" y="460" text-anchor="end" font-size="11.5" fill="#b91c1c">calendar is now wrong</text>
+
+  <!-- ===== the story, in order ===== -->
+  <rect x="30" y="700" width="1170" height="232" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="50" y="728" font-size="14" font-weight="600" fill="#1c1e21">What happens, in order</text>
+  <text x="50" y="754" font-size="12.5" fill="#1c1e21"><tspan font-weight="700">1</tspan>   The user calls the company to book a move.</text>
+  <text x="50" y="776" font-size="12.5" fill="#1c1e21"><tspan font-weight="700">2</tspan>   The sales person picks up and asks about the items, their estimated weight, both addresses and the date.</text>
+  <text x="50" y="798" font-size="12.5" fill="#1c1e21"><tspan font-weight="700">3</tspan>   The sales person drafts a quote.     <tspan font-weight="700">4</tspan>   The quote goes to the manager for approval.</text>
+  <text x="50" y="820" font-size="12.5" fill="#1c1e21"><tspan font-weight="700">5</tspan>   The manager checks the booking calendar for that day.</text>
+  <text x="50" y="842" font-size="12.5" fill="#1c1e21"><tspan font-weight="700">6</tspan>   If enough movers and trucks are free, and the trucks can carry the weight, the manager books them in the calendar.</text>
+  <text x="50" y="864" font-size="12.5" fill="#1c1e21"><tspan font-weight="700">7</tspan>   The manager approves the quote, or sends it back with another date.     <tspan font-weight="700">8</tspan>   The sales person confirms the price with the user.</text>
+  <text x="50" y="886" font-size="12.5" fill="#1c1e21"><tspan font-weight="700">9</tspan>   On move day the movers drive the trucks.     <tspan font-weight="700">10</tspan>   They load the user's things and deliver them to the new address.</text>
+  <text x="50" y="914" font-size="12.5" fill="#b91c1c"><tspan font-weight="700">!</tspan>   A truck can break down after it was booked. Then the calendar is wrong: who finds out, who updates it, and which move loses the truck?</text>
+</svg>
