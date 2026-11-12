@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 1040" width="1300" height="1040" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#374151" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#9ca3af" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="1300" height="1040" fill="#ffffff"/>
+
+  <text x="650" y="34" text-anchor="middle" font-size="18" font-weight="600" fill="#1c1e21">Moving company: the move at the centre</text>
+  <text x="650" y="56" text-anchor="middle" fill="#6b7280">the move as the aggregate · every actor with their goal · numbers give the order</text>
+  <text x="650" y="76" text-anchor="middle" font-size="12" fill="#6b7280">yellow: people · pale: things · green: a view · pink: outside · red: what can go wrong</text>
+
+  <!-- ===== top row ===== -->
+  <rect x="640" y="130" width="180" height="86" rx="10" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.4"/>
+  <text x="730" y="158" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Calendar</text>
+  <text x="730" y="178" text-anchor="middle" font-size="11.5" fill="#44403c">built from all moves;</text>
+  <text x="730" y="193" text-anchor="middle" font-size="11.5" fill="#44403c">can lag behind</text>
+
+  <rect x="940" y="130" width="180" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
+  <text x="1030" y="158" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Manager</text>
+  <text x="1030" y="178" text-anchor="middle" font-size="11.5" fill="#44403c">goal: every move staffed,</text>
+  <text x="1030" y="193" text-anchor="middle" font-size="11.5" fill="#44403c">nothing promised twice</text>
+
+  <rect x="1150" y="130" width="140" height="70" rx="10" fill="#fecaca" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="1220" y="154" text-anchor="middle" font-size="12" font-weight="600" fill="#7f1d1d">Same truck or crew</text>
+  <text x="1220" y="171" text-anchor="middle" font-size="11" fill="#991b1b">on two moves</text>
+  <text x="1220" y="186" text-anchor="middle" font-size="11" fill="#991b1b">is flagged</text>
+
+  <!-- ===== middle row ===== -->
+  <rect x="30" y="330" width="180" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
+  <text x="120" y="358" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Customer</text>
+  <text x="120" y="378" text-anchor="middle" font-size="11.5" fill="#44403c">goal: a fair, fixed price</text>
+  <text x="120" y="393" text-anchor="middle" font-size="11.5" fill="#44403c">and the move on the day</text>
+
+  <rect x="300" y="330" width="180" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
+  <text x="390" y="358" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Sales person</text>
+  <text x="390" y="378" text-anchor="middle" font-size="11.5" fill="#44403c">goal: moves done</text>
+  <text x="390" y="393" text-anchor="middle" font-size="11.5" fill="#44403c">and paid in full</text>
+
+  <!-- the move: the aggregate -->
+  <rect x="560" y="300" width="340" height="180" rx="12" fill="#fef9c3"/>
+  <path d="M572,300 L888,300 Q900,300 900,312 L900,326 L560,326 L560,312 Q560,300 572,300 Z" fill="#fde68a"/>
+  <line x1="560" y1="326" x2="900" y2="326" stroke="#a16207" stroke-width="1"/>
+  <rect x="560" y="300" width="340" height="180" rx="12" fill="none" stroke="#a16207" stroke-width="2.2"/>
+  <text x="730" y="318" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#92400e">THE AGGREGATE</text>
+  <text x="730" y="351" text-anchor="middle" font-size="17" font-weight="700" fill="#1c1e21">Move</text>
+  <text x="730" y="369" text-anchor="middle" font-size="11.5" fill="#44403c">the job the company delivers</text>
+  <text x="730" y="394" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1c1e21">requested → quoted → date held → confirmed</text>
+  <text x="730" y="410" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1c1e21">→ scheduled → done → paid   ·   or cancelled</text>
+  <text x="730" y="436" text-anchor="middle" font-size="11" fill="#57534e">holds: the customer, addresses, date, items,</text>
+  <text x="730" y="451" text-anchor="middle" font-size="11" fill="#57534e">difficulty, price, deposit, extras, and the crew</text>
+  <text x="730" y="466" text-anchor="middle" font-size="11" fill="#57534e">and trucks by name</text>
+
+  <rect x="980" y="330" width="180" height="86" rx="10" fill="#fef9c3" stroke="#a16207" stroke-width="1.4"/>
+  <text x="1070" y="358" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Trucks</text>
+  <text x="1070" y="378" text-anchor="middle" font-size="11.5" fill="#44403c">on the fleet list,</text>
+  <text x="1070" y="393" text-anchor="middle" font-size="11.5" fill="#44403c">named on each move</text>
+
+  <rect x="980" y="450" width="180" height="66" rx="10" fill="#fecaca" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="1070" y="477" text-anchor="middle" font-size="13" font-weight="600" fill="#7f1d1d">A truck breaks down</text>
+  <text x="1070" y="496" text-anchor="middle" font-size="11.5" fill="#991b1b">its moves are flagged</text>
+
+  <!-- ===== bottom row ===== -->
+  <rect x="30" y="600" width="180" height="66" rx="10" fill="#fbcfe8" stroke="#db2777" stroke-width="1.4"/>
+  <text x="120" y="627" text-anchor="middle" font-size="14" font-weight="600" fill="#1c1e21">Payment provider</text>
+  <text x="120" y="647" text-anchor="middle" font-size="11.5" fill="#44403c">deposit, then balance</text>
+
+  <rect x="300" y="600" width="180" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
+  <text x="390" y="628" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Owner</text>
+  <text x="390" y="648" text-anchor="middle" font-size="11.5" fill="#44403c">oversees everything;</text>
+  <text x="390" y="663" text-anchor="middle" font-size="11.5" fill="#44403c">goal: every move paid</text>
+
+  <rect x="560" y="600" width="180" height="86" rx="10" fill="#fef9c3" stroke="#a16207" stroke-width="1.4"/>
+  <text x="650" y="628" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Price list</text>
+  <text x="650" y="648" text-anchor="middle" font-size="11.5" fill="#44403c">rates and difficulty</text>
+  <text x="650" y="663" text-anchor="middle" font-size="11.5" fill="#44403c">factors</text>
+
+  <rect x="800" y="600" width="180" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
+  <text x="890" y="628" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Foreman</text>
+  <text x="890" y="648" text-anchor="middle" font-size="11.5" fill="#44403c">goal: the job as quoted,</text>
+  <text x="890" y="663" text-anchor="middle" font-size="11.5" fill="#44403c">extras priced fairly</text>
+
+  <rect x="1040" y="600" width="180" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
+  <text x="1130" y="628" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Movers</text>
+  <text x="1130" y="648" text-anchor="middle" font-size="11.5" fill="#44403c">goal: to know where,</text>
+  <text x="1130" y="663" text-anchor="middle" font-size="11.5" fill="#44403c">what, and which truck</text>
+
+  <!-- ===== actions ===== -->
+  <!-- customer and sales person -->
+  <line x1="212" y1="352" x2="298" y2="352" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="255" y="346" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">1</tspan>  calls</text>
+  <line x1="298" y1="395" x2="212" y2="395" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="255" y="389" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">6</tspan>  confirms</text>
+
+  <!-- sales person: quote, price list, calendar, manager -->
+  <line x1="482" y1="373" x2="558" y2="373" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="520" y="367" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">2·3</tspan> quotes</text>
+  <line x1="470" y1="418" x2="608" y2="598" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="548" y="500" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">3</tspan>  prices from it</text>
+  <line x1="470" y1="328" x2="648" y2="218" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="545" y="262" text-anchor="end" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">3</tspan>  picks a date</text>
+  <path d="M390,328 L390,112 L1030,112 L1030,128" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="710" y="106" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">4</tspan>  asks the manager to confirm the date</text>
+
+  <!-- manager -->
+  <line x1="938" y1="173" x2="822" y2="173" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="880" y="167" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">5</tspan>  checks</text>
+  <line x1="1000" y1="218" x2="862" y2="298" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="972" y="252" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">5</tspan>  holds the date</text>
+  <text x="972" y="268" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">8</tspan>  assigns crew, trucks</text>
+
+  <!-- the calendar is built from the moves -->
+  <line x1="730" y1="298" x2="730" y2="218" stroke="#9ca3af" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#arrow-grey)"/>
+  <text x="738" y="262" font-size="11" fill="#6b7280">built from all moves</text>
+
+  <!-- trucks are named on the move -->
+  <line x1="902" y1="373" x2="978" y2="373" stroke="#9ca3af" stroke-width="1.4"/>
+  <text x="940" y="367" text-anchor="middle" font-size="11" fill="#6b7280">named</text>
+
+  <!-- what can go wrong -->
+  <line x1="1148" y1="165" x2="1122" y2="165" stroke="#dc2626" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrow-red)"/>
+  <line x1="1070" y1="418" x2="1070" y2="448" stroke="#dc2626" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrow-red)"/>
+  <text x="1078" y="437" font-size="11.5" fill="#b91c1c"><tspan font-weight="700">!</tspan>  can break down</text>
+  <line x1="978" y1="483" x2="904" y2="468" stroke="#dc2626" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrow-red)"/>
+
+  <!-- money -->
+  <line x1="120" y1="418" x2="120" y2="598" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="128" y="505" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">7</tspan>  deposit · <tspan font-weight="700">10</tspan>  balance</text>
+  <line x1="212" y1="633" x2="298" y2="633" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="255" y="627" text-anchor="middle" font-size="11" fill="#6b7280">money in</text>
+  <line x1="390" y1="598" x2="390" y2="418" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="382" y="520" text-anchor="end" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">11</tspan>  pays a share</text>
+  <line x1="482" y1="643" x2="558" y2="643" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="520" y="637" text-anchor="middle" font-size="11" fill="#6b7280">sets prices</text>
+
+  <!-- move day -->
+  <line x1="880" y1="598" x2="820" y2="482" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="866" y="545" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">9</tspan>  extras · <tspan font-weight="700">10</tspan>  done</text>
+  <line x1="798" y1="643" x2="742" y2="643" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="770" y="637" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1c1e21">9</text>
+  <line x1="982" y1="643" x2="1038" y2="643" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="1010" y="637" text-anchor="middle" font-size="11" fill="#6b7280">leads</text>
+
+  <!-- ===== the story and the rules ===== -->
+  <rect x="30" y="720" width="1240" height="300" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="50" y="748" font-size="14" font-weight="600" fill="#1c1e21">What happens, in order, and why</text>
+  <text x="50" y="774" font-size="12" fill="#1c1e21"><tspan font-weight="700">1</tspan>   The customer calls to get a price they can trust.</text>
+  <text x="50" y="795" font-size="12" fill="#1c1e21"><tspan font-weight="700">2</tspan>   The sales person lists the items and the difficulty, so the quote matches the real job.</text>
+  <text x="50" y="816" font-size="12" fill="#1c1e21"><tspan font-weight="700">3</tspan>   The sales person prices it from the price list, so it is fair, and picks a likely date from the calendar.</text>
+  <text x="50" y="837" font-size="12" fill="#1c1e21"><tspan font-weight="700">4</tspan>   The sales person asks the manager to confirm the date, because the calendar can lag behind.</text>
+  <text x="50" y="858" font-size="12" fill="#1c1e21"><tspan font-weight="700">5</tspan>   The manager checks real availability and holds the date, so no crew or truck is promised twice.</text>
+  <text x="50" y="879" font-size="12" fill="#1c1e21"><tspan font-weight="700">6</tspan>   The sales person confirms with the customer one last time, and the price is locked.</text>
+  <text x="50" y="900" font-size="12" fill="#1c1e21"><tspan font-weight="700">7</tspan>   The customer pays a deposit, so the company knows the move is real.</text>
+  <text x="50" y="921" font-size="12" fill="#1c1e21"><tspan font-weight="700">8</tspan>   The manager assigns the crew and the trucks by name, so everyone knows where to be.</text>
+  <text x="50" y="942" font-size="12" fill="#1c1e21"><tspan font-weight="700">9</tspan>   On the day the foreman leads the movers and prices any extras from the price list.</text>
+  <text x="50" y="963" font-size="12" fill="#1c1e21"><tspan font-weight="700">10</tspan>   The move is done, and the customer pays the balance with the extras.</text>
+  <text x="50" y="984" font-size="12" fill="#1c1e21"><tspan font-weight="700">11</tspan>   The owner receives the money, and the sales person gets a share of it.</text>
+
+  <text x="800" y="748" font-size="14" font-weight="600" fill="#7e22ce">Rules</text>
+  <text x="800" y="774" font-size="12" fill="#1c1e21">•  The manager's hold keeps the date, usually for the day.</text>
+  <text x="812" y="791" font-size="12" fill="#1c1e21">It ends if the customer can't be reached or cancels.</text>
+  <text x="800" y="816" font-size="12" fill="#1c1e21">•  Cancelling within 7 days of the move: the company</text>
+  <text x="812" y="833" font-size="12" fill="#1c1e21">keeps the deposit.</text>
+  <text x="800" y="858" font-size="12" fill="#1c1e21">•  The company can't do the move: the deposit is returned.</text>
+  <text x="800" y="883" font-size="12" fill="#1c1e21">•  The customer can't dispute the foreman's extras; the</text>
+  <text x="812" y="900" font-size="12" fill="#1c1e21">manager settles rare exceptions.</text>
+  <text x="800" y="925" font-size="12" fill="#1c1e21">•  Only the manager assigns crews and trucks; the</text>
+  <text x="812" y="942" font-size="12" fill="#1c1e21">calendar flags any double booking.</text>
+  <text x="800" y="967" font-size="12" fill="#1c1e21">•  The sales person's share comes from the money</text>
+  <text x="812" y="984" font-size="12" fill="#1c1e21">received after the move.</text>
+</svg>
