@@ -1,312 +1,330 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1460 1526" width="1460" height="1526" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2175 1142" width="2175" height="1142" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
 <defs>
 <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#374151" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
 <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
-<marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
 <marker id="arrow-grey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#9ca3af" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
 </defs>
-<rect width="1460" height="1526" fill="#ffffff"/>
-<text x="730" y="34" text-anchor="middle" font-size="18" font-weight="600" fill="#1c1e21">Moving company: the customer builds the move online, with weird scenarios</text>
-<text x="730" y="56" text-anchor="middle" font-size="13" fill="#6b7280">the website, the confirmation call, and what the manager and the crew see · numbers give the order · numbered dots are weird scenarios, explained at the bottom</text>
-<text x="730" y="76" text-anchor="middle" font-size="12" fill="#6b7280">yellow: people · pale: records and lists · blue card: the website · green: views · pink: outside · blue arrows: talking to the customer · red: what can go wrong</text>
-<rect x="20" y="830" width="1420" height="360" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
-<rect x="20" y="100" width="460" height="710" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2"/>
+<rect width="2175" height="1142" fill="#ffffff"/>
+<text x="1087.5" y="34" text-anchor="middle" font-size="18" font-weight="600" fill="#1c1e21">Moving company: the customer builds the move online, redesigned for the weird scenarios</text>
+<text x="1087.5" y="56" text-anchor="middle" font-size="13" fill="#6b7280">four stages, five records · big cards are the people, records, lists and views · small numbered cards are how the design now answers each weird scenario</text>
+<text x="1087.5" y="76" text-anchor="middle" font-size="12" fill="#6b7280">yellow: people · pale: records and lists · blue card: the website · green: views · pink: outside · blue arrows: talking to the customer · small cards: green answered · teal new · dashed amber assumed</text>
+<rect x="20" y="800" width="2135" height="322" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<rect x="20" y="100" width="470" height="680" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2" data-zone="1"/>
 <text x="36" y="124" font-size="14" font-weight="700" fill="#1c1e21">1  On the website</text>
 <text x="36" y="141" font-size="11.5" fill="#64748b">the customer builds and schedules the move</text>
-<rect x="500" y="100" width="460" height="710" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2"/>
-<text x="516" y="124" font-size="14" font-weight="700" fill="#1c1e21">2  The confirmation call</text>
-<text x="516" y="141" font-size="11.5" fill="#64748b">the sales person confirms, and the move is created</text>
-<rect x="980" y="100" width="460" height="710" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2"/>
-<text x="996" y="124" font-size="14" font-weight="700" fill="#1c1e21">3  In the system</text>
-<text x="996" y="141" font-size="11.5" fill="#64748b">the manager and the crew both see it</text>
-<rect x="245" y="150" width="170" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
-<text x="330" y="180.25" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Customer</text>
-<text x="330" y="199.25" text-anchor="middle" font-size="11.5" fill="#44403c">goal: a fair price, built</text>
-<text x="330" y="214.25" text-anchor="middle" font-size="11.5" fill="#44403c">in their own time</text>
-<rect x="30" y="280" width="130" height="46" rx="10" fill="#fef9c3" stroke="#a16207" stroke-width="1.4"/>
-<text x="95" y="297.875" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1c1e21">Price list</text>
-<text x="95" y="314.875" text-anchor="middle" font-size="10.5" fill="#44403c">set by the owner</text>
-<rect x="30" y="337" width="130" height="46" rx="10" fill="#fbcfe8" stroke="#db2777" stroke-width="1.4"/>
-<text x="95" y="354.875" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1c1e21">Maps service</text>
-<text x="95" y="371.875" text-anchor="middle" font-size="10.5" fill="#44403c">distance in km</text>
-<rect x="30" y="394" width="130" height="46" rx="10" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.4"/>
-<text x="95" y="411.875" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1c1e21">Availability</text>
-<text x="95" y="428.875" text-anchor="middle" font-size="10.5" fill="#44403c">general, per date</text>
-<rect x="200" y="280" width="260" height="160" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
-<text x="330" y="326.25" text-anchor="middle" font-size="15" font-weight="600" fill="#1e3a8a">Website calculator</text>
-<text x="330" y="348.25" text-anchor="middle" font-size="11.5" fill="#1e40af">items and their usual weights</text>
-<text x="330" y="366.25" text-anchor="middle" font-size="11.5" fill="#1e40af">addresses: distance from maps</text>
-<text x="330" y="384.25" text-anchor="middle" font-size="11.5" fill="#1e40af">an available date</text>
-<text x="330" y="402.25" text-anchor="middle" font-size="11.5" fill="#1e40af">a live estimate</text>
-<rect x="220" y="490" width="220" height="170" rx="10" fill="#fef9c3"/>
-<path d="M230,490 L430,490 Q440,490 440,500 L440,512 L220,512 L220,500 Q220,490 230,490 Z" fill="#fde68a"/>
-<line x1="220" y1="512" x2="440" y2="512" stroke="#a16207" stroke-width="1"/>
-<rect x="220" y="490" width="220" height="170" rx="10" fill="none" stroke="#a16207" stroke-width="2.2"/>
-<text x="330" y="505" text-anchor="middle" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#92400e">ONE PER REQUEST</text>
-<text x="330" y="534" text-anchor="middle" font-size="16" font-weight="700" fill="#1c1e21">Web quote</text>
-<text x="330" y="551" text-anchor="middle" font-size="11" fill="#44403c">decided by the customer</text>
-<text x="330" y="573" text-anchor="middle" font-size="10.5" fill="#1c1e21">items and weights entered</text>
-<text x="330" y="588" text-anchor="middle" font-size="10.5" fill="#1c1e21">addresses and distance</text>
-<text x="330" y="603" text-anchor="middle" font-size="10.5" fill="#1c1e21">an available date picked</text>
-<text x="330" y="618" text-anchor="middle" font-size="10.5" fill="#1c1e21">submitted, or expired</text>
-<text x="330" y="649" text-anchor="middle" font-size="10.5" font-style="italic" fill="#7e22ce">rule: a request, not a promise</text>
-<rect x="220" y="712" width="220" height="74" rx="10" fill="#fecaca" stroke="#dc2626" stroke-width="1.4"/>
-<text x="330" y="735.55" text-anchor="middle" font-size="13" font-weight="600" fill="#7f1d1d">Entered wrong</text>
-<text x="330" y="754.55" text-anchor="middle" font-size="11.5" fill="#991b1b">forgot the piano, 40 boxes:</text>
-<text x="330" y="769.55" text-anchor="middle" font-size="11.5" fill="#991b1b">fixed on the call</text>
-<rect x="640" y="150" width="180" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
-<text x="730" y="180.25" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Sales person</text>
-<text x="730" y="199.25" text-anchor="middle" font-size="11.5" fill="#44403c">goal: moves confirmed,</text>
-<text x="730" y="214.25" text-anchor="middle" font-size="11.5" fill="#44403c">done and paid in full</text>
-<rect x="620" y="300" width="220" height="170" rx="10" fill="#fef9c3"/>
-<path d="M630,300 L830,300 Q840,300 840,310 L840,322 L620,322 L620,310 Q620,300 630,300 Z" fill="#fde68a"/>
-<line x1="620" y1="322" x2="840" y2="322" stroke="#a16207" stroke-width="1"/>
-<rect x="620" y="300" width="220" height="170" rx="10" fill="none" stroke="#a16207" stroke-width="2.2"/>
-<text x="730" y="315" text-anchor="middle" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#92400e">ONE PER CONFIRMED MOVE</text>
-<text x="730" y="344" text-anchor="middle" font-size="16" font-weight="700" fill="#1c1e21">Move</text>
-<text x="730" y="361" text-anchor="middle" font-size="11" fill="#44403c">created by the sales person</text>
-<text x="730" y="383" text-anchor="middle" font-size="10.5" fill="#1c1e21">created from the web quote</text>
-<text x="730" y="398" text-anchor="middle" font-size="10.5" fill="#1c1e21">changes agreed on the call</text>
-<text x="730" y="413" text-anchor="middle" font-size="10.5" fill="#1c1e21">price locked, date set</text>
-<text x="730" y="428" text-anchor="middle" font-size="10.5" fill="#1c1e21">or cancelled</text>
-<text x="730" y="459" text-anchor="middle" font-size="10.5" font-style="italic" fill="#7e22ce">rule: created once; price locked</text>
-<rect x="640" y="520" width="180" height="66" rx="10" fill="#fbcfe8" stroke="#db2777" stroke-width="1.4"/>
-<text x="730" y="547.4" text-anchor="middle" font-size="14" font-weight="600" fill="#1c1e21">Payment provider</text>
-<text x="730" y="566.4" text-anchor="middle" font-size="11.5" fill="#44403c">charges the deposit</text>
-<rect x="620" y="630" width="220" height="160" rx="10" fill="#fef9c3"/>
-<path d="M630,630 L830,630 Q840,630 840,640 L840,652 L620,652 L620,640 Q620,630 630,630 Z" fill="#fde68a"/>
-<line x1="620" y1="652" x2="840" y2="652" stroke="#a16207" stroke-width="1"/>
-<rect x="620" y="630" width="220" height="160" rx="10" fill="none" stroke="#a16207" stroke-width="2.2"/>
-<text x="730" y="645" text-anchor="middle" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#92400e">ONE PER MOVE</text>
-<text x="730" y="674" text-anchor="middle" font-size="16" font-weight="700" fill="#1c1e21">Customer account</text>
-<text x="730" y="691" text-anchor="middle" font-size="11" fill="#44403c">kept by the owner</text>
-<text x="730" y="713" text-anchor="middle" font-size="10.5" fill="#1c1e21">deposit paid</text>
-<text x="730" y="728" text-anchor="middle" font-size="10.5" fill="#1c1e21">balance due after the move</text>
-<text x="730" y="743" text-anchor="middle" font-size="10.5" fill="#1c1e21">balance paid</text>
-<text x="730" y="758" text-anchor="middle" font-size="10.5" fill="#1c1e21">sales share paid</text>
-<text x="730" y="779" text-anchor="middle" font-size="10.5" font-style="italic" fill="#7e22ce">rule: a deposit is settled once</text>
-<rect x="1000" y="150" width="170" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
-<text x="1085" y="180.25" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Manager</text>
-<text x="1085" y="199.25" text-anchor="middle" font-size="11.5" fill="#44403c">goal: every move staffed,</text>
-<text x="1085" y="214.25" text-anchor="middle" font-size="11.5" fill="#44403c">nobody promised twice</text>
-<rect x="985" y="340" width="200" height="86" rx="10" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.4"/>
-<text x="1085" y="370.25" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Schedule</text>
-<text x="1085" y="389.25" text-anchor="middle" font-size="11.5" fill="#44403c">every confirmed move by day,</text>
-<text x="1085" y="404.25" text-anchor="middle" font-size="11.5" fill="#44403c">for the manager and the crew</text>
-<rect x="1000" y="520" width="170" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
-<text x="1085" y="550.25" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Crew</text>
-<text x="1085" y="569.25" text-anchor="middle" font-size="11.5" fill="#44403c">foreman and movers;</text>
-<text x="1085" y="584.25" text-anchor="middle" font-size="11.5" fill="#44403c">goal: know where and what</text>
-<rect x="1240" y="140" width="190" height="156" rx="10" fill="#fef9c3"/>
-<path d="M1250,140 L1420,140 Q1430,140 1430,150 L1430,162 L1240,162 L1240,150 Q1240,140 1250,140 Z" fill="#fde68a"/>
-<line x1="1240" y1="162" x2="1430" y2="162" stroke="#a16207" stroke-width="1"/>
-<rect x="1240" y="140" width="190" height="156" rx="10" fill="none" stroke="#a16207" stroke-width="2.2"/>
-<text x="1335" y="155" text-anchor="middle" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#92400e">ONE PER DATE</text>
-<text x="1335" y="184" text-anchor="middle" font-size="16" font-weight="700" fill="#1c1e21">Day plan</text>
-<text x="1335" y="201" text-anchor="middle" font-size="11" fill="#44403c">decided by the manager</text>
-<text x="1335" y="223" text-anchor="middle" font-size="10.5" fill="#1c1e21">each move assigned to a crew</text>
-<text x="1335" y="238" text-anchor="middle" font-size="10.5" fill="#1c1e21">trucks named</text>
-<text x="1335" y="253" text-anchor="middle" font-size="10.5" fill="#1c1e21">truck taken off</text>
-<text x="1335" y="268" text-anchor="middle" font-size="10.5" fill="#1c1e21">move didn't happen: why</text>
-<text x="1335" y="285" text-anchor="middle" font-size="10.5" font-style="italic" fill="#7e22ce">rule: nobody on two moves a day</text>
-<rect x="1250" y="340" width="170" height="86" rx="10" fill="#fef9c3" stroke="#a16207" stroke-width="1.4"/>
-<text x="1335" y="370.25" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Fleet and staff</text>
-<text x="1335" y="389.25" text-anchor="middle" font-size="11.5" fill="#44403c">trucks and movers</text>
-<text x="1335" y="404.25" text-anchor="middle" font-size="11.5" fill="#44403c">by name</text>
-<rect x="1250" y="470" width="170" height="74" rx="10" fill="#fecaca" stroke="#dc2626" stroke-width="1.4"/>
-<text x="1335" y="493.55" text-anchor="middle" font-size="13" font-weight="600" fill="#7f1d1d">A truck breaks down</text>
-<text x="1335" y="512.55" text-anchor="middle" font-size="11.5" fill="#991b1b">taken off its moves;</text>
-<text x="1335" y="527.55" text-anchor="middle" font-size="11.5" fill="#991b1b">the manager re-plans</text>
-<rect x="985" y="650" width="200" height="74" rx="10" fill="#fecaca" stroke="#dc2626" stroke-width="1.4"/>
-<text x="1085" y="673.55" text-anchor="middle" font-size="13" font-weight="600" fill="#7f1d1d">More moves than crews</text>
-<text x="1085" y="692.55" text-anchor="middle" font-size="11.5" fill="#991b1b">availability is only general;</text>
-<text x="1085" y="707.55" text-anchor="middle" font-size="11.5" fill="#991b1b">the manager re-plans the day</text>
-<line x1="330" y1="238" x2="330" y2="278" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<text x="338" y="262" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">1</tspan>  builds the move</text>
-<line x1="162" y1="303" x2="198" y2="303" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<line x1="162" y1="360" x2="198" y2="360" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<line x1="162" y1="417" x2="198" y2="417" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<line x1="330" y1="442" x2="330" y2="488" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<text x="338" y="469" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">2</tspan>  submits</text>
-<line x1="442" y1="500" x2="650" y2="238" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<text x="548" y="384" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">3</tspan>  request</text>
-<line x1="638" y1="175" x2="417" y2="175" stroke="#2563eb" stroke-width="1.4" marker-end="url(#arrow-blue)"/>
-<text x="508" y="169" font-size="11.5" fill="#1d4ed8"><tspan font-weight="700">4</tspan>  calls to go through it</text>
-<line x1="417" y1="212" x2="638" y2="212" stroke="#2563eb" stroke-width="1.4" marker-end="url(#arrow-blue)"/>
-<text x="508" y="206" font-size="11.5" fill="#1d4ed8"><tspan font-weight="700">5</tspan>  says yes</text>
-<line x1="822" y1="230" x2="983" y2="338" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<text x="850" y="236" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">5</tspan>  checks the day</text>
-<line x1="730" y1="238" x2="730" y2="298" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<text x="738" y="272" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">6</tspan>  creates</text>
-<line x1="442" y1="600" x2="618" y2="440" stroke="#9ca3af" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#arrow-grey)"/>
-<text x="508" y="592" font-size="11" fill="#6b7280"><tspan font-weight="700" fill="#374151">6</tspan>  copied into the move</text>
-<line x1="730" y1="472" x2="730" y2="518" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<text x="738" y="499" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">7</tspan>  charges the deposit</text>
-<line x1="730" y1="588" x2="730" y2="628" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<text x="738" y="612" font-size="11" fill="#6b7280">deposit recorded</text>
-<line x1="842" y1="383" x2="983" y2="383" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<text x="912" y="377" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">8</tspan>  appears on it</text>
-<line x1="1085" y1="338" x2="1085" y2="238" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<text x="1093" y="292" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">9</tspan>  sees it</text>
-<line x1="1085" y1="428" x2="1085" y2="518" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<text x="1093" y="476" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">9</tspan>  sees it</text>
-<line x1="1172" y1="193" x2="1238" y2="193" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<text x="1205" y="187" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">10</tspan>  assigns</text>
-<line x1="1335" y1="298" x2="1335" y2="338" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
-<text x="1343" y="322" font-size="11" fill="#6b7280">from the list</text>
-<line x1="1245" y1="298" x2="1187" y2="344" stroke="#9ca3af" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#arrow-grey)"/>
-<line x1="330" y1="662" x2="330" y2="710" stroke="#dc2626" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrow-red)"/>
-<text x="338" y="690" font-size="11.5" fill="#b91c1c"><tspan font-weight="700">!</tspan>  can be wrong</text>
-<line x1="1335" y1="428" x2="1335" y2="468" stroke="#dc2626" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrow-red)"/>
-<text x="1343" y="452" font-size="11.5" fill="#b91c1c"><tspan font-weight="700">!</tspan>  can break</text>
-<text x="40" y="858" font-size="14" font-weight="600" fill="#1c1e21">What happens, in order, and why</text>
-<text x="40" y="886" font-size="12" fill="#1c1e21"><tspan font-weight="700">1</tspan>   The customer opens the website and builds the move in the calculator: items and weights, both addresses and an available date.</text>
-<text x="40" y="907" font-size="12" fill="#1c1e21"><tspan font-weight="700">2</tspan>   The calculator estimates the price from the price list and the distance from maps. The customer submits it.</text>
-<text x="40" y="928" font-size="12" fill="#1c1e21"><tspan font-weight="700">3</tspan>   The submitted web quote reaches the sales person as a new request.</text>
-<text x="40" y="949" font-size="12" fill="#1c1e21"><tspan font-weight="700">4</tspan>   The sales person calls the customer to go through the move they built, and fixes anything missing or wrong.</text>
-<text x="40" y="970" font-size="12" fill="#1c1e21"><tspan font-weight="700">5</tspan>   The sales person checks the schedule, because the website only shows general availability. The customer says yes.</text>
-<text x="40" y="991" font-size="12" fill="#1c1e21"><tspan font-weight="700">6</tspan>   The sales person creates the move from the web quote: the price is locked and the date is set.</text>
-<text x="40" y="1012" font-size="12" fill="#1c1e21"><tspan font-weight="700">7</tspan>   The deposit is charged through the payment provider and recorded in the customer account.</text>
-<text x="40" y="1033" font-size="12" fill="#1c1e21"><tspan font-weight="700">8</tspan>   The new move appears on the schedule.</text>
-<text x="40" y="1054" font-size="12" fill="#1c1e21"><tspan font-weight="700">9</tspan>   The manager and the crew both see it.</text>
-<text x="40" y="1075" font-size="12" fill="#1c1e21"><tspan font-weight="700">10</tspan>   The manager assigns the move to a crew, with its trucks, in the day plan. Move day runs as before.</text>
-<text x="890" y="858" font-size="14" font-weight="600" fill="#7e22ce">Rules</text>
-<text x="890" y="886" font-size="11.5" fill="#1c1e21">•  A web quote is only a request: nothing is</text>
-<text x="902" y="902" font-size="11.5" fill="#1c1e21">promised before the call.</text>
-<text x="890" y="924" font-size="11.5" fill="#1c1e21">•  The move is created once, from the web quote,</text>
-<text x="902" y="940" font-size="11.5" fill="#1c1e21">with the price locked.</text>
-<text x="890" y="962" font-size="11.5" fill="#1c1e21">•  The deposit is charged when the move is created.</text>
-<text x="890" y="984" font-size="11.5" fill="#1c1e21">•  Cancelling within 7 days of the move keeps the deposit.</text>
-<text x="890" y="1006" font-size="11.5" fill="#1c1e21">•  The website shows only general availability per date;</text>
-<text x="902" y="1022" font-size="11.5" fill="#1c1e21">the customer never picks a crew or trucks.</text>
-<text x="890" y="1044" font-size="11.5" fill="#1c1e21">•  Only the manager assigns a move to a crew, in the day plan.</text>
-<text x="890" y="1076" font-size="14" font-weight="600" fill="#b91c1c">When things fall apart</text>
-<text x="890" y="1100" font-size="11.5" fill="#1c1e21">•  The customer can't be reached: close to the move date</text>
-<text x="902" y="1116" font-size="11.5" fill="#1c1e21">the request is cancelled and the web quote expires.</text>
-<text x="890" y="1138" font-size="11.5" fill="#1c1e21">•  More moves than crews on one day: availability is only</text>
-<text x="902" y="1154" font-size="11.5" fill="#1c1e21">general, so the manager re-plans the day.</text>
-<circle cx="220" cy="520" r="10.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.6"/>
-<text x="220" y="523.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">1</text>
-<circle cx="460" cy="345" r="10.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.6"/>
-<text x="460" y="348.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">2</text>
-<circle cx="245" cy="193" r="10.5" fill="#d97706" stroke="#ffffff" stroke-width="1.6"/>
-<text x="245" y="196.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">3</text>
-<circle cx="640" cy="553" r="10.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.6"/>
-<text x="640" y="556.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">4</text>
-<circle cx="820" cy="182" r="10.5" fill="#d97706" stroke="#ffffff" stroke-width="1.6"/>
-<text x="820" y="185.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">5</text>
-<circle cx="455" cy="158" r="10.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.6"/>
-<text x="455" y="161.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">6</text>
-<circle cx="1420" cy="470" r="10.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.6"/>
-<text x="1420" y="473.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">7</text>
-<circle cx="1185" cy="650" r="10.5" fill="#d97706" stroke="#ffffff" stroke-width="1.6"/>
-<text x="1185" y="653.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">8</text>
-<circle cx="620" cy="345" r="10.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.6"/>
-<text x="620" y="348.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">9</text>
-<circle cx="1170" cy="530" r="13" fill="none" stroke="#7c3aed" stroke-width="2"/>
-<circle cx="1170" cy="530" r="10.5" fill="#d97706" stroke="#ffffff" stroke-width="1.6"/>
-<text x="1170" y="533.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">10</text>
-<circle cx="1170" cy="556" r="10.5" fill="#d97706" stroke="#ffffff" stroke-width="1.6"/>
-<text x="1170" y="559.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">11</text>
-<circle cx="1170" cy="580" r="10.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.6"/>
-<text x="1170" y="583.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">12</text>
-<circle cx="1240" cy="240" r="10.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.6"/>
-<text x="1240" y="243.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">13</text>
-<circle cx="1170" cy="604" r="10.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.6"/>
-<text x="1170" y="607.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">14</text>
-<circle cx="840" cy="690" r="10.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.6"/>
-<text x="840" y="693.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">15</text>
-<circle cx="840" cy="716" r="10.5" fill="#d97706" stroke="#ffffff" stroke-width="1.6"/>
-<text x="840" y="719.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">16</text>
-<rect x="20" y="1204" width="1420" height="302" rx="10" fill="#fffbeb" stroke="#fde68a" stroke-width="1.2"/>
-<text x="40" y="1232" font-size="14" font-weight="600" fill="#1c1e21">Weird scenarios: the numbered dots above</text>
-<rect x="400" y="1221" width="14" height="14" rx="3" fill="#16a34a"/>
-<text x="422" y="1232" font-size="11.5" fill="#374151"><tspan font-weight="700">4</tspan>  the design already answers it</text>
-<rect x="670" y="1221" width="14" height="14" rx="3" fill="#d97706"/>
-<text x="692" y="1232" font-size="11.5" fill="#374151"><tspan font-weight="700">6</tspan>  an open question for the business</text>
-<rect x="940" y="1221" width="14" height="14" rx="3" fill="#dc2626"/>
-<text x="962" y="1232" font-size="11.5" fill="#374151"><tspan font-weight="700">6</tspan>  breaks the current design</text>
-<circle cx="1217" cy="1228" r="8" fill="none" stroke="#7c3aed" stroke-width="2"/>
-<text x="1232" y="1232" font-size="11.5" fill="#374151">your example</text>
-<circle cx="48" cy="1266" r="10.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.6"/>
-<text x="48" y="1269.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">1</text>
-<text x="68" y="1270" font-size="12" font-weight="700" fill="#1c1e21">Two web quotes, one move</text>
-<text x="68" y="1286" font-size="11" fill="#374151">Different dates on phone and laptop: which is real?</text>
-<text x="68" y="1301" font-size="10.5" font-weight="600" fill="#991b1b">breaks: nothing links two requests</text>
-<circle cx="48" cy="1326" r="10.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.6"/>
-<text x="48" y="1329.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">2</text>
-<text x="68" y="1330" font-size="12" font-weight="700" fill="#1c1e21">A stop at a storage unit</text>
-<text x="68" y="1346" font-size="11" fill="#374151">Three addresses, not two: what happens to the third?</text>
-<text x="68" y="1361" font-size="10.5" font-weight="600" fill="#991b1b">breaks: a quote has one pickup, one delivery</text>
-<circle cx="48" cy="1386" r="10.5" fill="#d97706" stroke="#ffffff" stroke-width="1.6"/>
-<text x="48" y="1389.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">3</text>
-<text x="68" y="1390" font-size="12" font-weight="700" fill="#1c1e21">Booked by someone else</text>
-<text x="68" y="1406" font-size="11" fill="#374151">An employer books for a new hire: who pays?</text>
-<text x="68" y="1421" font-size="10.5" font-weight="600" fill="#92400e">open: who is the customer?</text>
-<circle cx="48" cy="1446" r="10.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.6"/>
-<text x="48" y="1449.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">4</text>
-<text x="68" y="1450" font-size="12" font-weight="700" fill="#1c1e21">Yes, but the card is declined</text>
-<text x="68" y="1466" font-size="11" fill="#374151">The deposit fails after the yes: is it confirmed?</text>
-<text x="68" y="1481" font-size="10.5" font-weight="600" fill="#991b1b">breaks: the move exists before the deposit</text>
-<circle cx="395" cy="1266" r="10.5" fill="#d97706" stroke="#ffffff" stroke-width="1.6"/>
-<text x="395" y="1269.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">5</text>
-<text x="415" y="1270" font-size="12" font-weight="700" fill="#1c1e21">A date the website showed as full</text>
-<text x="415" y="1286" font-size="11" fill="#374151">The customer insists by phone: can sales say yes?</text>
-<text x="415" y="1301" font-size="10.5" font-weight="600" fill="#92400e">open: only the manager knows capacity</text>
-<circle cx="395" cy="1326" r="10.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.6"/>
-<text x="395" y="1329.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">6</text>
-<text x="415" y="1330" font-size="12" font-weight="700" fill="#1c1e21">Never picks up</text>
-<text x="415" y="1346" font-size="11" fill="#374151">How long does the request stay open?</text>
-<text x="415" y="1361" font-size="10.5" font-weight="600" fill="#166534">answered: cancelled near the date; quote expires</text>
-<circle cx="395" cy="1386" r="10.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.6"/>
-<text x="395" y="1389.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">7</text>
-<text x="415" y="1390" font-size="12" font-weight="700" fill="#1c1e21">A truck breaks the day before</text>
-<text x="415" y="1406" font-size="11" fill="#374151">Which move loses it, and who tells the customer?</text>
-<text x="415" y="1421" font-size="10.5" font-weight="600" fill="#166534">answered: the manager re-plans, sales calls</text>
-<circle cx="395" cy="1446" r="10.5" fill="#d97706" stroke="#ffffff" stroke-width="1.6"/>
-<text x="395" y="1449.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">8</text>
-<text x="415" y="1450" font-size="12" font-weight="700" fill="#1c1e21">More moves than crews</text>
-<text x="415" y="1466" font-size="11" fill="#374151">Whose date changes, and who decides?</text>
-<text x="415" y="1481" font-size="10.5" font-weight="600" fill="#92400e">open: no rule says which customer moves</text>
-<circle cx="742" cy="1266" r="10.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.6"/>
-<text x="742" y="1269.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">9</text>
-<text x="762" y="1270" font-size="12" font-weight="700" fill="#1c1e21">A new address after the yes</text>
-<text x="762" y="1286" font-size="11" fill="#374151">40 km further: does the locked price hold?</text>
-<text x="762" y="1301" font-size="10.5" font-weight="600" fill="#991b1b">breaks: the move has no way to change</text>
-<circle cx="742" cy="1326" r="13" fill="none" stroke="#7c3aed" stroke-width="2"/>
-<circle cx="742" cy="1326" r="10.5" fill="#d97706" stroke="#ffffff" stroke-width="1.6"/>
-<text x="742" y="1329.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">10</text>
-<text x="762" y="1330" font-size="12" font-weight="700" fill="#1c1e21">Confirmed, but never met the crew</text>
-<text x="762" y="1346" font-size="11" fill="#374151">Nobody is there: how long to wait, and who pays?</text>
-<text x="762" y="1361" font-size="10.5" font-weight="600" fill="#92400e">part answered: didn't happen, deposit kept</text>
-<circle cx="742" cy="1386" r="10.5" fill="#d97706" stroke="#ffffff" stroke-width="1.6"/>
-<text x="742" y="1389.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">11</text>
-<text x="762" y="1390" font-size="12" font-weight="700" fill="#1c1e21">A neighbour has the key</text>
-<text x="762" y="1406" font-size="11" fill="#374151">Does the crew start without the customer?</text>
-<text x="762" y="1421" font-size="10.5" font-weight="600" fill="#92400e">open: who may accept the move?</text>
-<circle cx="742" cy="1446" r="10.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.6"/>
-<text x="742" y="1449.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">12</text>
-<text x="762" y="1450" font-size="12" font-weight="700" fill="#1c1e21">Won't pay extras before unloading</text>
-<text x="762" y="1466" font-size="11" fill="#374151">The truck is full: does the crew unload?</text>
-<text x="762" y="1481" font-size="10.5" font-weight="600" fill="#166534">answered: the manager settles exceptions</text>
-<circle cx="1089" cy="1266" r="10.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.6"/>
-<text x="1089" y="1269.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">13</text>
-<text x="1109" y="1270" font-size="12" font-weight="700" fill="#1c1e21">Half goes to storage overnight</text>
-<text x="1109" y="1286" font-size="11" fill="#374151">It runs over two days: one move or two?</text>
-<text x="1109" y="1301" font-size="10.5" font-weight="600" fill="#991b1b">breaks: a move has one date</text>
-<circle cx="1089" cy="1326" r="10.5" fill="#dc2626" stroke="#ffffff" stroke-width="1.6"/>
-<text x="1089" y="1329.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">14</text>
-<text x="1109" y="1330" font-size="12" font-weight="700" fill="#1c1e21">The crew damages a sofa</text>
-<text x="1109" y="1346" font-size="11" fill="#374151">Who records it, and does it change what's owed?</text>
-<text x="1109" y="1361" font-size="10.5" font-weight="600" fill="#991b1b">breaks: nothing records damage</text>
-<circle cx="1089" cy="1386" r="10.5" fill="#16a34a" stroke="#ffffff" stroke-width="1.6"/>
-<text x="1089" y="1389.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">15</text>
-<text x="1109" y="1390" font-size="12" font-weight="700" fill="#1c1e21">The balance payment bounces</text>
-<text x="1109" y="1406" font-size="11" fill="#374151">Does the sales person still get a share?</text>
-<text x="1109" y="1421" font-size="10.5" font-weight="600" fill="#166534">answered: share only from money received</text>
-<circle cx="1089" cy="1446" r="10.5" fill="#d97706" stroke="#ffffff" stroke-width="1.6"/>
-<text x="1089" y="1449.8" text-anchor="middle" font-size="10.5" font-weight="700" fill="#ffffff">16</text>
-<text x="1109" y="1450" font-size="12" font-weight="700" fill="#1c1e21">A refund weeks later</text>
-<text x="1109" y="1466" font-size="11" fill="#374151">Is the sales person's share taken back?</text>
-<text x="1109" y="1481" font-size="10.5" font-weight="600" fill="#92400e">open: can a share be reversed?</text>
+<rect x="505" y="100" width="470" height="680" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2" data-zone="1"/>
+<text x="521" y="124" font-size="14" font-weight="700" fill="#1c1e21">2  The confirmation call</text>
+<text x="521" y="141" font-size="11.5" fill="#64748b">the yes, the deposit, then the move</text>
+<rect x="990" y="100" width="680" height="680" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2" data-zone="1"/>
+<text x="1006" y="124" font-size="14" font-weight="700" fill="#1c1e21">3  In the system</text>
+<text x="1006" y="141" font-size="11.5" fill="#64748b">the manager plans the day</text>
+<rect x="1685" y="100" width="470" height="680" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2" data-zone="1"/>
+<text x="1701" y="124" font-size="14" font-weight="700" fill="#1c1e21">4  Move day</text>
+<text x="1701" y="141" font-size="11.5" fill="#64748b">the crew does the work</text>
+<rect x="280" y="150" width="170" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
+<text x="365" y="180.25" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Customer</text>
+<text x="365" y="199.25" text-anchor="middle" font-size="11.5" fill="#44403c">goal: a fair price, built</text>
+<text x="365" y="214.25" text-anchor="middle" font-size="11.5" fill="#44403c">in their own time</text>
+<rect x="40" y="296" width="200" height="62" rx="10" fill="#fef9c3" stroke="#a16207" stroke-width="1.4"/>
+<text x="140" y="321.725" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1c1e21">Price list</text>
+<text x="140" y="339.725" text-anchor="middle" font-size="11" fill="#44403c">set by the owner</text>
+<rect x="40" y="368" width="200" height="62" rx="10" fill="#fbcfe8" stroke="#db2777" stroke-width="1.4"/>
+<text x="140" y="393.725" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1c1e21">Maps service</text>
+<text x="140" y="411.725" text-anchor="middle" font-size="11" fill="#44403c">distance in km</text>
+<rect x="40" y="440" width="200" height="62" rx="10" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.4"/>
+<text x="140" y="465.725" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1c1e21">Availability</text>
+<text x="140" y="483.725" text-anchor="middle" font-size="11" fill="#44403c">general, per date</text>
+<rect x="255" y="290" width="220" height="220" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="365" y="366.25" text-anchor="middle" font-size="15" font-weight="600" fill="#1e3a8a">Website calculator</text>
+<text x="365" y="388.25" text-anchor="middle" font-size="11.5" fill="#1e40af">items and their usual weights</text>
+<text x="365" y="406.25" text-anchor="middle" font-size="11.5" fill="#1e40af">addresses and stops</text>
+<text x="365" y="424.25" text-anchor="middle" font-size="11.5" fill="#1e40af">an available date</text>
+<text x="365" y="442.25" text-anchor="middle" font-size="11.5" fill="#1e40af">a live estimate</text>
+<rect x="255" y="550" width="220" height="186" rx="10" fill="#fef9c3"/>
+<path d="M265,550 L465,550 Q475,550 475,560 L475,572 L255,572 L255,560 Q255,550 265,550 Z" fill="#fde68a"/>
+<line x1="255" y1="572" x2="475" y2="572" stroke="#a16207" stroke-width="1"/>
+<rect x="255" y="550" width="220" height="186" rx="10" fill="none" stroke="#a16207" stroke-width="2.2"/>
+<text x="365" y="565" text-anchor="middle" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#92400e">ONE PER REQUEST</text>
+<text x="365" y="593" text-anchor="middle" font-size="16" font-weight="700" fill="#1c1e21">Web quote</text>
+<text x="365" y="610" text-anchor="middle" font-size="11" fill="#44403c">decided by the customer</text>
+<text x="365" y="631" text-anchor="middle" font-size="10.5" fill="#1c1e21">items and weights entered</text>
+<text x="365" y="646" text-anchor="middle" font-size="10.5" fill="#1c1e21">addresses and stops</text>
+<text x="365" y="661" text-anchor="middle" font-size="10.5" fill="#1c1e21">booker, mover and payer named</text>
+<text x="365" y="676" text-anchor="middle" font-size="10.5" fill="#1c1e21">an available date picked</text>
+<text x="365" y="691" text-anchor="middle" font-size="10.5" fill="#1c1e21">accepted, superseded or expired</text>
+<text x="365" y="725" text-anchor="middle" font-size="10.5" font-style="italic" fill="#7e22ce">rule: a request, not a promise</text>
+<rect x="40" y="166" width="200" height="54" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.3" stroke-dasharray="5 3"/>
+<circle cx="55" cy="181" r="9" fill="#d97706"/>
+<text x="55" y="184.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">3</text>
+<text x="70" y="185" font-size="11" font-weight="700" fill="#1c1e21">Booker, mover, payer</text>
+<text x="52" y="201" font-size="10" fill="#374151">can be three people; sales calls</text>
+<text x="52" y="213" font-size="10" fill="#374151">the booker, the payer owes</text>
+<polyline points="240,193 278,193" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="40" y="232" width="200" height="54" rx="7" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.3"/>
+<circle cx="55" cy="247" r="9" fill="#0d9488"/>
+<text x="55" y="250.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">2</text>
+<text x="70" y="251" font-size="11" font-weight="700" fill="#1c1e21">Stops</text>
+<text x="52" y="267" font-size="10" fill="#374151">pickup, extra stops, delivery;</text>
+<text x="52" y="279" font-size="10" fill="#374151">distance summed over the legs</text>
+<polyline points="240,259 247,259 247,300 253,300" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="40" y="556" width="200" height="54" rx="7" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.3"/>
+<circle cx="55" cy="571" r="9" fill="#0d9488"/>
+<text x="55" y="574.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">1</text>
+<text x="70" y="575" font-size="11" font-weight="700" fill="#1c1e21">One open request per move</text>
+<text x="52" y="591" font-size="10" fill="#374151">same contact, second request:</text>
+<text x="52" y="603" font-size="10" fill="#374151">flagged; sales keeps one</text>
+<polyline points="240,583 253,583" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="40" y="622" width="200" height="54" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.3"/>
+<circle cx="55" cy="637" r="9" fill="#16a34a"/>
+<text x="55" y="640.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">6</text>
+<text x="70" y="641" font-size="11" font-weight="700" fill="#1c1e21">Expiry</text>
+<text x="52" y="657" font-size="10" fill="#374151">never reached: cancelled close</text>
+<text x="52" y="669" font-size="10" fill="#374151">to the date; the quote expires</text>
+<polyline points="240,649 253,649" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="40" y="688" width="200" height="54" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.3"/>
+<circle cx="55" cy="703" r="9" fill="#16a34a"/>
+<text x="55" y="706.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">!</text>
+<text x="70" y="707" font-size="11" font-weight="700" fill="#1c1e21">Entered wrong</text>
+<text x="52" y="723" font-size="10" fill="#374151">forgot the piano, 40 boxes:</text>
+<text x="52" y="735" font-size="10" fill="#374151">fixed on the call</text>
+<polyline points="240,715 253,715" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="650" y="150" width="180" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
+<text x="740" y="180.25" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Sales person</text>
+<text x="740" y="199.25" text-anchor="middle" font-size="11.5" fill="#44403c">goal: moves confirmed,</text>
+<text x="740" y="214.25" text-anchor="middle" font-size="11.5" fill="#44403c">done and paid in full</text>
+<rect x="540" y="300" width="180" height="66" rx="10" fill="#fbcfe8" stroke="#db2777" stroke-width="1.4"/>
+<text x="630" y="327.4" text-anchor="middle" font-size="14" font-weight="600" fill="#1c1e21">Payment provider</text>
+<text x="630" y="346.4" text-anchor="middle" font-size="11.5" fill="#44403c">deposit, then balance</text>
+<rect x="520" y="420" width="220" height="186" rx="10" fill="#fef9c3"/>
+<path d="M530,420 L730,420 Q740,420 740,430 L740,442 L520,442 L520,430 Q520,420 530,420 Z" fill="#fde68a"/>
+<line x1="520" y1="442" x2="740" y2="442" stroke="#a16207" stroke-width="1"/>
+<rect x="520" y="420" width="220" height="186" rx="10" fill="none" stroke="#a16207" stroke-width="2.2"/>
+<text x="630" y="435" text-anchor="middle" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#92400e">ONE PER MOVE</text>
+<text x="630" y="463" text-anchor="middle" font-size="16" font-weight="700" fill="#1c1e21">Customer account</text>
+<text x="630" y="480" text-anchor="middle" font-size="11" fill="#44403c">kept by the owner</text>
+<text x="630" y="501" text-anchor="middle" font-size="10.5" fill="#1c1e21">deposit paid, kept or returned</text>
+<text x="630" y="516" text-anchor="middle" font-size="10.5" fill="#1c1e21">balance due after the move</text>
+<text x="630" y="531" text-anchor="middle" font-size="10.5" fill="#1c1e21">damage credit</text>
+<text x="630" y="546" text-anchor="middle" font-size="10.5" fill="#1c1e21">balance paid or refunded</text>
+<text x="630" y="561" text-anchor="middle" font-size="10.5" fill="#1c1e21">sales share paid or adjusted</text>
+<text x="630" y="595" text-anchor="middle" font-size="10.5" font-style="italic" fill="#7e22ce">rule: a deposit is settled once</text>
+<rect x="750" y="300" width="220" height="186" rx="10" fill="#fef9c3"/>
+<path d="M760,300 L960,300 Q970,300 970,310 L970,322 L750,322 L750,310 Q750,300 760,300 Z" fill="#fde68a"/>
+<line x1="750" y1="322" x2="970" y2="322" stroke="#a16207" stroke-width="1"/>
+<rect x="750" y="300" width="220" height="186" rx="10" fill="none" stroke="#a16207" stroke-width="2.2"/>
+<text x="860" y="315" text-anchor="middle" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#92400e">ONE PER CONFIRMED MOVE</text>
+<text x="860" y="343" text-anchor="middle" font-size="16" font-weight="700" fill="#1c1e21">Move</text>
+<text x="860" y="360" text-anchor="middle" font-size="11" fill="#44403c">created by the sales person</text>
+<text x="860" y="381" text-anchor="middle" font-size="10.5" fill="#1c1e21">created once the deposit is in</text>
+<text x="860" y="396" text-anchor="middle" font-size="10.5" fill="#1c1e21">price locked, date set</text>
+<text x="860" y="411" text-anchor="middle" font-size="10.5" fill="#1c1e21">change request: re-priced</text>
+<text x="860" y="426" text-anchor="middle" font-size="10.5" fill="#1c1e21">date changed by the company</text>
+<text x="860" y="441" text-anchor="middle" font-size="10.5" fill="#1c1e21">or cancelled</text>
+<text x="860" y="475" text-anchor="middle" font-size="10.5" font-style="italic" fill="#7e22ce">rule: changes only by request</text>
+<rect x="760" y="500" width="200" height="54" rx="7" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.3"/>
+<circle cx="775" cy="515" r="9" fill="#0d9488"/>
+<text x="775" y="518.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">4</text>
+<text x="790" y="519" font-size="11" font-weight="700" fill="#1c1e21">Deposit before the move</text>
+<text x="772" y="535" font-size="10" fill="#374151">the yes is recorded first; the</text>
+<text x="772" y="547" font-size="10" fill="#374151">move exists once the deposit is in</text>
+<polyline points="860,486 860,500" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="760" y="566" width="200" height="54" rx="7" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.3"/>
+<circle cx="775" cy="581" r="9" fill="#0d9488"/>
+<text x="775" y="584.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">9</text>
+<text x="790" y="585" font-size="11" font-weight="700" fill="#1c1e21">Change request</text>
+<text x="772" y="601" font-size="10" fill="#374151">after the yes: re-priced from</text>
+<text x="772" y="613" font-size="10" fill="#374151">the list, needs a new yes</text>
+<polyline points="860,554 860,566" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="530" y="620" width="200" height="54" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.3"/>
+<circle cx="545" cy="635" r="9" fill="#16a34a"/>
+<text x="545" y="638.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">15</text>
+<text x="560" y="639" font-size="11" font-weight="700" fill="#1c1e21">Unpaid balance</text>
+<text x="542" y="655" font-size="10" fill="#374151">sales chases it; no share</text>
+<text x="542" y="667" font-size="10" fill="#374151">until the money is in</text>
+<polyline points="630,606 630,620" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="530" y="686" width="200" height="54" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.3" stroke-dasharray="5 3"/>
+<circle cx="545" cy="701" r="9" fill="#d97706"/>
+<text x="545" y="704.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">16</text>
+<text x="560" y="705" font-size="11" font-weight="700" fill="#1c1e21">Refund</text>
+<text x="542" y="721" font-size="10" fill="#374151">recorded on the account; the</text>
+<text x="542" y="733" font-size="10" fill="#374151">sales share is adjusted</text>
+<polyline points="630,674 630,686" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="1015" y="150" width="170" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
+<text x="1100" y="180.25" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Manager</text>
+<text x="1100" y="199.25" text-anchor="middle" font-size="11.5" fill="#44403c">goal: every move staffed,</text>
+<text x="1100" y="214.25" text-anchor="middle" font-size="11.5" fill="#44403c">nobody promised twice</text>
+<rect x="1015" y="290" width="170" height="86" rx="10" fill="#fef9c3" stroke="#a16207" stroke-width="1.4"/>
+<text x="1100" y="320.25" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Fleet and staff</text>
+<text x="1100" y="339.25" text-anchor="middle" font-size="11.5" fill="#44403c">trucks and movers</text>
+<text x="1100" y="354.25" text-anchor="middle" font-size="11.5" fill="#44403c">by name</text>
+<rect x="1435" y="140" width="220" height="186" rx="10" fill="#fef9c3"/>
+<path d="M1445,140 L1645,140 Q1655,140 1655,150 L1655,162 L1435,162 L1435,150 Q1435,140 1445,140 Z" fill="#fde68a"/>
+<line x1="1435" y1="162" x2="1655" y2="162" stroke="#a16207" stroke-width="1"/>
+<rect x="1435" y="140" width="220" height="186" rx="10" fill="none" stroke="#a16207" stroke-width="2.2"/>
+<text x="1545" y="155" text-anchor="middle" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#92400e">ONE PER DATE</text>
+<text x="1545" y="183" text-anchor="middle" font-size="16" font-weight="700" fill="#1c1e21">Day plan</text>
+<text x="1545" y="200" text-anchor="middle" font-size="11" fill="#44403c">decided by the manager</text>
+<text x="1545" y="221" text-anchor="middle" font-size="10.5" fill="#1c1e21">each move assigned to a crew</text>
+<text x="1545" y="236" text-anchor="middle" font-size="10.5" fill="#1c1e21">trucks named; truck taken off</text>
+<text x="1545" y="251" text-anchor="middle" font-size="10.5" fill="#1c1e21">exception accepted or refused</text>
+<text x="1545" y="266" text-anchor="middle" font-size="10.5" fill="#1c1e21">extra day added</text>
+<text x="1545" y="281" text-anchor="middle" font-size="10.5" fill="#1c1e21">move didn't happen: why</text>
+<text x="1545" y="315" text-anchor="middle" font-size="10.5" font-style="italic" fill="#7e22ce">rule: nobody on two moves a day</text>
+<rect x="1435" y="404" width="220" height="86" rx="10" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.4"/>
+<text x="1545" y="434.25" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Schedule</text>
+<text x="1545" y="453.25" text-anchor="middle" font-size="11.5" fill="#44403c">every confirmed move by day,</text>
+<text x="1545" y="468.25" text-anchor="middle" font-size="11.5" fill="#44403c">for the manager and the crew</text>
+<rect x="1000" y="392" width="200" height="54" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.3"/>
+<circle cx="1015" cy="407" r="9" fill="#16a34a"/>
+<text x="1015" y="410.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">7</text>
+<text x="1030" y="411" font-size="11" font-weight="700" fill="#1c1e21">Truck breaks down</text>
+<text x="1012" y="427" font-size="10" fill="#374151">taken off its moves; manager</text>
+<text x="1012" y="439" font-size="10" fill="#374151">re-plans, sales calls</text>
+<polyline points="1100,376 1100,392" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="1215" y="185" width="200" height="54" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.3" stroke-dasharray="5 3"/>
+<circle cx="1230" cy="200" r="9" fill="#d97706"/>
+<text x="1230" y="203.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">5</text>
+<text x="1245" y="204" font-size="11" font-weight="700" fill="#1c1e21">Exception request</text>
+<text x="1227" y="220" font-size="10" fill="#374151">full date: sales asks, and only</text>
+<text x="1227" y="232" font-size="10" fill="#374151">the manager can accept it</text>
+<polyline points="1415,212 1433,212" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="1215" y="251" width="200" height="54" rx="7" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.3"/>
+<circle cx="1230" cy="266" r="9" fill="#0d9488"/>
+<text x="1230" y="269.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">13</text>
+<text x="1245" y="270" font-size="11" font-weight="700" fill="#1c1e21">Extra day</text>
+<text x="1227" y="286" font-size="10" fill="#374151">same move, a second date and</text>
+<text x="1227" y="298" font-size="10" fill="#374151">a storage stop, priced as extras</text>
+<polyline points="1415,278 1433,278" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="1215" y="404" width="200" height="54" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.3" stroke-dasharray="5 3"/>
+<circle cx="1230" cy="419" r="9" fill="#d97706"/>
+<text x="1230" y="422.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">8</text>
+<text x="1245" y="423" font-size="11" font-weight="700" fill="#1c1e21">Too many moves</text>
+<text x="1227" y="439" font-size="10" fill="#374151">last confirmed is moved first;</text>
+<text x="1227" y="451" font-size="10" fill="#374151">sales calls, new date offered</text>
+<polyline points="1415,431 1433,431" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="1730" y="404" width="170" height="86" rx="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1.4"/>
+<text x="1815" y="434.25" text-anchor="middle" font-size="15" font-weight="600" fill="#1c1e21">Crew</text>
+<text x="1815" y="453.25" text-anchor="middle" font-size="11.5" fill="#44403c">foreman and movers;</text>
+<text x="1815" y="468.25" text-anchor="middle" font-size="11.5" fill="#44403c">goal: know where and what</text>
+<rect x="1715" y="540" width="200" height="172" rx="10" fill="#fef9c3"/>
+<path d="M1725,540 L1905,540 Q1915,540 1915,550 L1915,562 L1715,562 L1715,550 Q1715,540 1725,540 Z" fill="#fde68a"/>
+<line x1="1715" y1="562" x2="1915" y2="562" stroke="#a16207" stroke-width="1"/>
+<rect x="1715" y="540" width="200" height="172" rx="10" fill="none" stroke="#a16207" stroke-width="1.8" stroke-dasharray="0"/>
+<text x="1815" y="555" text-anchor="middle" font-size="9.5" font-weight="700" letter-spacing="1.2" fill="#92400e">ONE PER MOVE, PER DAY</text>
+<text x="1815" y="583" text-anchor="middle" font-size="14.88" font-weight="700" fill="#1c1e21">Move day</text>
+<text x="1815" y="600" text-anchor="middle" font-size="10.23" fill="#44403c">decided by the foreman</text>
+<text x="1815" y="621" text-anchor="middle" font-size="9.765" fill="#1c1e21">crew set off, arrived</text>
+<text x="1815" y="635" text-anchor="middle" font-size="9.765" fill="#1c1e21">waited for the customer</text>
+<text x="1815" y="649" text-anchor="middle" font-size="9.765" fill="#1c1e21">extras priced from the list</text>
+<text x="1815" y="663" text-anchor="middle" font-size="9.765" fill="#1c1e21">damage reported</text>
+<text x="1815" y="677" text-anchor="middle" font-size="9.765" fill="#1c1e21">done, or an extra day needed</text>
+<text x="1815" y="701" text-anchor="middle" font-size="9.765" font-style="italic" fill="#7e22ce">rule: nothing after it's done</text>
+<rect x="1715" y="300" width="200" height="54" rx="7" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.3"/>
+<circle cx="1730" cy="315" r="9" fill="#94a3b8"/>
+<text x="1730" y="318.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">•</text>
+<text x="1745" y="319" font-size="11" font-weight="700" fill="#1c1e21">Contact on the day</text>
+<text x="1727" y="335" font-size="10" fill="#374151">from set-off the foreman, not</text>
+<text x="1727" y="347" font-size="10" fill="#374151">sales, is in touch with the mover</text>
+<polyline points="1815,354 1815,404" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="1945" y="396" width="200" height="54" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.3" stroke-dasharray="5 3"/>
+<circle cx="1960" cy="411" r="11.5" fill="none" stroke="#7c3aed" stroke-width="2"/>
+<circle cx="1960" cy="411" r="9" fill="#d97706"/>
+<text x="1960" y="414.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">10</text>
+<text x="1975" y="415" font-size="11" font-weight="700" fill="#1c1e21">No-show</text>
+<text x="1957" y="431" font-size="10" fill="#374151">foreman calls, waits a set time,</text>
+<text x="1957" y="443" font-size="10" fill="#374151">tells the manager; deposit kept</text>
+<polyline points="1900,423 1943,423" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="1945" y="456" width="200" height="54" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.3" stroke-dasharray="5 3"/>
+<circle cx="1960" cy="471" r="9" fill="#d97706"/>
+<text x="1960" y="474.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">11</text>
+<text x="1975" y="475" font-size="11" font-weight="700" fill="#1c1e21">Stand-in</text>
+<text x="1957" y="491" font-size="10" fill="#374151">named before the day, or the</text>
+<text x="1957" y="503" font-size="10" fill="#374151">crew doesn't start</text>
+<polyline points="1900,483 1943,483" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="1945" y="552" width="200" height="54" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.3"/>
+<circle cx="1960" cy="567" r="9" fill="#16a34a"/>
+<text x="1960" y="570.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">12</text>
+<text x="1975" y="571" font-size="11" font-weight="700" fill="#1c1e21">Extras refused</text>
+<text x="1957" y="587" font-size="10" fill="#374151">no dispute on the spot; the</text>
+<text x="1957" y="599" font-size="10" fill="#374151">manager settles exceptions</text>
+<polyline points="1915,579 1943,579" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="1945" y="618" width="200" height="54" rx="7" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.3"/>
+<circle cx="1960" cy="633" r="9" fill="#0d9488"/>
+<text x="1960" y="636.6" text-anchor="middle" font-size="9.5" font-weight="700" fill="#ffffff">14</text>
+<text x="1975" y="637" font-size="11" font-weight="700" fill="#1c1e21">Damage report</text>
+<text x="1957" y="653" font-size="10" fill="#374151">foreman records it; the owner</text>
+<text x="1957" y="665" font-size="10" fill="#374151">settles; a credit on the account</text>
+<polyline points="1915,645 1943,645" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+<polyline points="365,238 365,288" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="373" y="267" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">1</tspan>  builds the move</text>
+<polyline points="242,327 253,327" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<polyline points="242,399 253,399" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<polyline points="242,471 253,471" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<polyline points="365,512 365,548" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="373" y="535" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">2</tspan>  submits</text>
+<polyline points="477,562 497,562 497,222 648,222" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="512" y="240" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">3</tspan>  request</text>
+<polyline points="648,168 452,168" fill="none" stroke="#2563eb" stroke-width="1.4" marker-end="url(#arrow-blue)"/>
+<text x="512" y="162" font-size="11.5" fill="#1d4ed8"><tspan font-weight="700">4</tspan>  calls to go through it</text>
+<polyline points="452,196 648,196" fill="none" stroke="#2563eb" stroke-width="1.4" marker-end="url(#arrow-blue)"/>
+<text x="512" y="190" font-size="11.5" fill="#1d4ed8"><tspan font-weight="700">5</tspan>  says yes</text>
+<polyline points="832,185 1013,185" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="838" y="179" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">5</tspan>  full date: asks</text>
+<polyline points="690,238 640,298" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="652" y="268" text-anchor="end" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">6</tspan>  takes the deposit</text>
+<polyline points="630,368 630,418" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="638" y="397" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">7</tspan>  recorded</text>
+<polyline points="790,238 850,298" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="832" y="268" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">8</tspan>  creates the move</text>
+<polyline points="972,476 1433,476" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="1100" y="470" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">9</tspan>  appears on it</text>
+<polyline points="1480,402 1480,376 1207,376 1207,215 1187,215" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="1330" y="370" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">10</tspan>  sees it</text>
+<polyline points="1657,447 1728,447" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="1694" y="441" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">10</tspan>  </text>
+<polyline points="1187,165 1433,165" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="1310" y="159" text-anchor="middle" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">11</tspan>  assigns to a crew</text>
+<polyline points="1100,238 1100,288" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="1108" y="268" font-size="11" fill="#6b7280">from the list</text>
+<polyline points="1545,328 1545,402" fill="none" stroke="#9ca3af" stroke-width="1.4" stroke-dasharray="5 3" marker-end="url(#arrow-grey)"/>
+<polyline points="1815,492 1815,538" fill="none" stroke="#374151" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="1823" y="520" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">12</tspan>  records</text>
+<text x="40" y="828" font-size="14" font-weight="600" fill="#1c1e21">What happens, in order, and why</text>
+<text x="40" y="856" font-size="12" fill="#1c1e21"><tspan font-weight="700">1</tspan>   The customer builds the move in the calculator: items and weights, addresses with any stops, and an available date.</text>
+<text x="40" y="877" font-size="12" fill="#1c1e21"><tspan font-weight="700">2</tspan>   The calculator estimates the price from the price list and the distance over all the legs. The customer submits it.</text>
+<text x="40" y="898" font-size="12" fill="#1c1e21"><tspan font-weight="700">3</tspan>   The web quote reaches the sales person as a request. A second request from the same contact is flagged.</text>
+<text x="40" y="919" font-size="12" fill="#1c1e21"><tspan font-weight="700">4</tspan>   The sales person calls the booker to go through the move, and fixes anything missing or wrong.</text>
+<text x="40" y="940" font-size="12" fill="#1c1e21"><tspan font-weight="700">5</tspan>   The customer says yes. If the date turned out to be full, the sales person asks the manager for an exception.</text>
+<text x="40" y="961" font-size="12" fill="#1c1e21"><tspan font-weight="700">6</tspan>   The sales person takes the deposit through the payment provider.</text>
+<text x="40" y="982" font-size="12" fill="#1c1e21"><tspan font-weight="700">7</tspan>   The deposit is recorded in the customer account. If the card is declined, there is no move yet.</text>
+<text x="40" y="1003" font-size="12" fill="#1c1e21"><tspan font-weight="700">8</tspan>   With the deposit in, the sales person creates the move: the price is locked and the date is set.</text>
+<text x="40" y="1024" font-size="12" fill="#1c1e21"><tspan font-weight="700">9</tspan>   The move appears on the schedule.</text>
+<text x="40" y="1045" font-size="12" fill="#1c1e21"><tspan font-weight="700">10</tspan>   The manager and the crew both see it.</text>
+<text x="40" y="1066" font-size="12" fill="#1c1e21"><tspan font-weight="700">11</tspan>   The manager assigns the move to a crew, with its trucks, in the day plan.</text>
+<text x="40" y="1087" font-size="12" fill="#1c1e21"><tspan font-weight="700">12</tspan>   On the day the foreman records what happens: set off, arrived, waited, extras, damage, done, or an extra day.</text>
+<text x="40" y="1108" font-size="12" fill="#1c1e21"><tspan font-weight="700">13</tspan>   The balance falls due and is paid. The sales person's share comes only from money received.</text>
+<text x="800" y="828" font-size="14" font-weight="600" fill="#7e22ce">Rules</text>
+<text x="800" y="856" font-size="11.5" fill="#1c1e21">•  A web quote is only a request, and there is one open request per move.</text>
+<text x="800" y="878" font-size="11.5" fill="#1c1e21">•  No move without a deposit: the yes is recorded first, and the move is</text>
+<text x="812" y="894" font-size="11.5" fill="#1c1e21">created once the deposit is in.</text>
+<text x="800" y="916" font-size="11.5" fill="#1c1e21">•  A confirmed move changes only through a change request, re-priced</text>
+<text x="812" y="932" font-size="11.5" fill="#1c1e21">from the price list and accepted again.</text>
+<text x="800" y="954" font-size="11.5" fill="#1c1e21">•  Cancelling within 7 days of the move keeps the deposit.</text>
+<text x="800" y="976" font-size="11.5" fill="#1c1e21">•  Only the manager assigns crews, accepts a full date and adds a day.</text>
+<text x="800" y="998" font-size="11.5" fill="#1c1e21">•  A move can have several stops and more than one day; it is still one move.</text>
+<text x="800" y="1020" font-size="11.5" fill="#1c1e21">•  The foreman records the day; a move that didn't happen is recorded</text>
+<text x="812" y="1036" font-size="11.5" fill="#1c1e21">by the manager, with the reason and whose fault it was.</text>
+<text x="1480" y="828" font-size="14" font-weight="600" fill="#1c1e21">The small cards: how the design answers each weird scenario</text>
+<rect x="1480" y="844" width="34" height="16" rx="5" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.3"/>
+<text x="1524" y="856" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">5</tspan>  already answered by the earlier design</text>
+<rect x="1480" y="868" width="34" height="16" rx="5" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.3"/>
+<text x="1524" y="880" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">6</tspan>  new in this redesign</text>
+<rect x="1480" y="892" width="34" height="16" rx="5" fill="#fffbeb" stroke="#d97706" stroke-width="1.3" stroke-dasharray="5 3"/>
+<text x="1524" y="904" font-size="11.5" fill="#1c1e21"><tspan font-weight="700">6</tspan>  assumed here: confirm with the business before building</text>
+<circle cx="1497" cy="924" r="8" fill="none" stroke="#7c3aed" stroke-width="2"/>
+<text x="1524" y="928" font-size="11.5" fill="#1c1e21">your example: confirmed, but never met the crew</text>
+<text x="1480" y="958" font-size="11.5" fill="#1c1e21">•  The numbers match the weird-scenarios sheet, which has the question</text>
+<text x="1492" y="974" font-size="11.5" fill="#1c1e21">behind each card.</text>
+<text x="1480" y="996" font-size="11.5" fill="#1c1e21">•  Each small card sits next to the card it changes; the big cards are</text>
+<text x="1492" y="1012" font-size="11.5" fill="#1c1e21">the people, records, lists and views from before.</text>
 </svg>
